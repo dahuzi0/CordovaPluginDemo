@@ -1,0 +1,5204 @@
+.ActivityDetailPage .titleLabel {
+  height: 1.06rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.ActivityDetailPage .titleLabel .label {
+  width: 0.1rem;
+  height: 1.06rem;
+  background-color: #ff8400;
+  display: inline-block;
+  float: left;
+}
+.ActivityDetailPage .titleLabel .word {
+  margin-left: 0.15rem;
+  width: 6.2rem;
+  line-height: 1rem;
+  display: inline-block;
+  float: left;
+  white-space: nowrap;
+}
+.ActivityDetailPage .titleLabel .word .title {
+  font-size: .34rem;
+  color: #265291;
+  overflow: hidden;
+}
+.ActivityDetailPage .titleLabel .leftInfo {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+}
+.ActivityDetailPage .titleLabel .leftInfo .prise {
+  width: 1rem;
+  height: .5rem;
+  display: inline-block;
+  background: url(/images/circleNeighborhood/activityDetail/3.2_05.png) no-repeat center;
+  background-size: .5rem;
+}
+.ActivityDetailPage .titleLabel .leftInfo .priseNum {
+  width: 1rem;
+  line-height: .3rem;
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+}
+.ActivityDetailPage .content {
+  border-bottom: 1px solid #eeeeee;
+  margin: 0;
+  padding: 0.25rem;
+  font-size: 0.27rem;
+  color: #5d5d5d;
+}
+.ActivityDetailPage .tip {
+  margin: 0;
+  padding: 0.25rem;
+  font-size: .3rem;
+  color: #265291;
+}
+
+.ActivityListPage {
+  background-color: #f9f9f9;
+}
+.ActivityListPage .activityList li {
+  background-color: #fff;
+  margin-left: 0.19rem;
+  margin-top: 0.2rem;
+  width: 7.09rem;
+  height: 5.87rem;
+}
+.ActivityListPage .activityList li .activityDate {
+  margin: 0;
+  height: .5rem;
+  background-color: #f9f9f9;
+  color: #5e5e5e;
+  text-align: center;
+}
+.ActivityListPage .activityList li .activityTitle {
+  position: relative;
+  top: -0.8rem;
+  margin-left: .15rem;
+  color: white;
+  font-size: .3rem;
+}
+.ActivityListPage .activityList li .activityDes {
+  position: relative;
+  top: -0.4rem;
+  margin-left: .15rem;
+  margin-right: .15rem;
+  height: .86rem;
+  overflow: hidden;
+  border-bottom: 1px solid #eeeeee;
+  color: black;
+  font-size: .32rem;
+}
+.ActivityListPage .activityList li .word {
+  position: relative;
+  top: -0.5rem;
+  left: .15rem;
+  color: #0060bb;
+}
+
+.addShouquanPageStyle {
+  background: #ededed;
+}
+.addShouquanPageStyle .list {
+  margin-top: .2rem;
+  padding: 0;
+}
+.addShouquanPageStyle .list .item-button-right {
+  padding: 0 0 0 4%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+}
+.addShouquanPageStyle .list .item-button-right .item-select {
+  width: 80%;
+  float: right;
+  height: 100%;
+  border: none;
+  padding: 0;
+}
+.addShouquanPageStyle .list .item-button-right .item-select select {
+  max-width: 100%;
+  padding: 2px 31px 0 0px;
+  font-size: .3rem;
+}
+.addShouquanPageStyle .list .item-button-right .button {
+  height: 1rem;
+  line-height: 1rem;
+  top: 0;
+  background: none;
+  font-size: .3rem;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  text-align: right;
+  right: 2%;
+}
+.addShouquanPageStyle .list .item-button-right .radioBox {
+  width: 40%;
+  padding: 0;
+}
+.addShouquanPageStyle .list .item-button-right .radioBox .item-radio {
+  border: none;
+  background: none;
+  font-size: .3rem;
+}
+.addShouquanPageStyle .list .item-button-right .radioBox .item-radio .item-content {
+  padding: .1rem .45rem ;
+  background: url(/images/myMenu/radio.png) no-repeat left center;
+  background-size: .35rem;
+}
+.addShouquanPageStyle .list .item-button-right .radioBox .item-radio .radio-icon {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.addShouquanPageStyle .list .item-button-right .radioBox .item-radio .ion-checkmark:before {
+  background: url(/images/myMenu/radio1.png) no-repeat left center;
+  background-size: .35rem;
+  font-family: '';
+  width: 100%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  line-height: 10px;
+  height: 100%;
+  content: "";
+}
+.addShouquanPageStyle .bar-footer {
+  padding: 0;
+}
+.addShouquanPageStyle .bar-footer .buttons {
+  width: 100%;
+}
+.addShouquanPageStyle .bar-footer .buttons .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #328cc9;
+}
+
+.AllClubPage {
+  background-color: #f9f9f9;
+}
+.AllClubPage .clubList li {
+  background-color: #fff;
+  float: left;
+  margin: 0 .15rem .15rem .15rem;
+  width: 2.18rem;
+  height: 2.85rem;
+  border-bottom-right-radius: 0.1rem;
+  border-bottom-left-radius: 0.1rem;
+}
+.AllClubPage .clubList li .clubImg {
+  border-top-right-radius: 0.1rem;
+  border-top-left-radius: 0.1rem;
+}
+.AllClubPage .clubList li .clubName {
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.ApplyClubPage {
+  background-color: #f9f9f9;
+}
+.ApplyClubPage .peopleName {
+  margin-top: 0.6rem;
+  margin-left: 1.17rem;
+  font-size: 0.3rem;
+  color: #676767;
+}
+.ApplyClubPage .peopleName .name {
+  color: black;
+}
+.ApplyClubPage .clubName {
+  margin-left: 0.57rem;
+  color: #676767;
+  font-size: 0.3rem;
+  margin-top: 0.3rem;
+  display: inline-block;
+}
+.ApplyClubPage .clubName .clubNameHead {
+  margin-right: -0.1rem;
+  position: relative;
+  bottom: 0.36rem;
+}
+.ApplyClubPage .clubName #clubInputName {
+  display: inline-block;
+  margin: 0;
+  width: 4.14rem;
+}
+.ApplyClubPage .villageName {
+  width: 6rem;
+  margin-left: 0.85rem;
+  margin-top: 0.15rem;
+}
+.ApplyClubPage .villageName .villageNameHead {
+  color: #676767;
+  font-size: 0.3rem;
+  width: 1.5rem;
+  display: inline-block;
+  position: relative;
+  bottom: 0.22rem;
+}
+.ApplyClubPage .villageName #village {
+  width: 4.08rem;
+  height: 0.7rem;
+  display: inline-block;
+}
+.ApplyClubPage .reason {
+  width: 5.74rem;
+  height: 4.51rem;
+  margin-left: 0.84rem;
+  margin-top: 0.2rem;
+  color: #676767;
+  font-size: 0.3rem;
+}
+.ApplyClubPage .reason #reasonLabel {
+  margin: 0;
+  margin-top: 0.1rem;
+  height: 3.79rem;
+}
+.ApplyClubPage .reason #reasonContent {
+  width: 100%;
+  height: 100%;
+}
+.ApplyClubPage .reason #reasonText {
+  width: 100%;
+  height: 100%;
+}
+.ApplyClubPage .button {
+  background-color: #265291;
+  position: relative;
+  left: 1.70rem;
+  top: 0.2rem;
+  width: 3.8rem;
+  display: inline-block;
+  margin: 0;
+  padding: 0 12px;
+  min-width: 52px;
+  min-height: 47px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  vertical-align: top;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 42px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-appearance: none;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  font-style: normal;
+  outline: none;
+}
+input,
+a {
+  appearance: none;
+  tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 0.24rem;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+input[type="text"],
+input[type="checkBox"],
+input[type="password"],
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 0;
+}
+/*导航和头部的样式*/
+input {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.msgNavBtn {
+  background: url(/images/index/msg_icon.png) no-repeat center;
+  background-size: .45rem;
+}
+.remind {
+  background-color: #ff0000;
+  border-radius: .3rem;
+  text-align: center;
+  display: block;
+  padding: 0 .1rem;
+  height: .3rem;
+  line-height: .3rem;
+  position: relative;
+  right: .15rem;
+  z-index: 99;
+}
+.slider .slider-pager {
+  bottom: .2rem;
+}
+.slider .slider-pager .slider-pager-page {
+  color: #fff;
+}
+.slider .slider-pager img {
+  display: block;
+}
+.backBtn {
+  background: url(/images/back.png) no-repeat center;
+  background-size: .25rem;
+  display: block;
+  width: 19px;
+  height: 33px;
+}
+.bar .button,
+.bar button {
+  min-width: .5rem;
+}
+.bar.bar-positive {
+  background: #005bac;
+}
+.bar-positive .button {
+  background-color: #005bac;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  font-size: .3rem;
+}
+.bar-positive .button.activated {
+  background: none;
+}
+.tabs {
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5!important;
+  /*	border-color:#fff;*/
+}
+.tab-title,
+.item-input input,
+textarea,
+select,
+button {
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+.ion-index {
+  background: url(/images/nav/footIcon1-1.png) no-repeat center;
+  background-size: .5rem;
+}
+.ion-index-active {
+  background: url(/images/nav/footIcon2-1.png) no-repeat center;
+  background-size: .5rem;
+}
+.ion-neighbor {
+  background: url(/images/nav/footIcon1-2.png) no-repeat center;
+  background-size: .5rem;
+}
+.ion-neighbor-active {
+  background: url(/images/nav/footIcon2-2.png) no-repeat center;
+  background-size: .5rem;
+}
+.ion-readily {
+  background: url(/images/nav/readily.png) no-repeat center center;
+  background-size: .7rem!important;
+  height: .7rem!important;
+}
+.ion-readily-active {
+  background: url(/images/nav/readily_active.png) no-repeat center center;
+  background-size: .7rem!important;
+  height: .7rem!important;
+}
+.ion-periphery {
+  background: url(/images/nav/footIcon1-3.png) no-repeat center;
+  background-size: .5rem;
+}
+.ion-periphery-active {
+  background: url(/images/nav/footIcon2-3.png) no-repeat center;
+  background-size: .5rem;
+}
+.ion-mine {
+  background: url(/images/nav/footIcon1-4.png) no-repeat center;
+  background-size: .5rem;
+}
+.ion-mine-active {
+  background: url(/images/nav/footIcon2-4.png) no-repeat center;
+  background-size: .5rem;
+}
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active,
+ion-tabs.tabs-color-active-positive .tab-item.active,
+ion-tabs.tabs-color-active-positive .tab-item.activated {
+  color: #1877cc;
+}
+.noteBtn {
+  background: url(/images/payment/note.png) no-repeat center center;
+  background-size: .43rem;
+  width: .7rem;
+}
+.cameraBtn {
+  background: url(/images/photograph/camera.png) no-repeat center center;
+  background-size: .46rem;
+  width: .7rem;
+}
+/*弹出框样式*/
+.popup-container .popup {
+  border-radius: 8px;
+  padding-top: .2rem;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  font-size: .35rem;
+  background: #fff;
+  width: 75%;
+}
+.popup-container .popup .popup-head {
+  display: none;
+}
+.popup-container .popup .popup-body {
+  padding: 15px 10px;
+  color: #313131;
+  font-size: .35rem;
+}
+.popup-container .popup .popup-buttons {
+  border-top: 1px solid #ddd;
+  padding: 10px 20px;
+  min-height: 55px;
+}
+.popup-container .popup .popup-buttons .button {
+  min-height: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  background: #ccc;
+  color: #fff;
+  font-size: .35rem;
+}
+.popup-container .popup .button.button-positive {
+  background: #005bac;
+}
+
+.changeCityPageStyle {
+  background-color: #f9f9f9;
+}
+.changeCityPageStyle .item {
+  padding: 0 3%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+}
+.changeCityPageStyle .item a {
+  display: block;
+  color: #313131;
+}
+.changeCityPageStyle .item a span {
+  float: right;
+  font-size: .24rem;
+  color: #005bac;
+}
+
+.CircleListPage {
+  background-color: #f9f9f9;
+}
+.CircleListPage .list .item {
+  padding-top: .2rem;
+  padding-bottom: .1rem;
+}
+.CircleListPage .list .item .authorInfo .authorImg {
+  float: left;
+  display: inline-block;
+  width: .7rem;
+  height: .7rem;
+}
+.CircleListPage .list .item .authorInfo .name {
+  display: inline-block;
+  margin-left: 0.2rem;
+  margin-top: 0.05rem;
+  font-size: .33rem;
+  line-height: .35rem;
+}
+.CircleListPage .list .item .authorInfo .name .time {
+  font-size: .21rem;
+}
+.CircleListPage .list .item .title {
+  font-size: .3rem;
+  color: black;
+}
+.CircleListPage .list .item .imgList {
+  width: 100%;
+  height: 1.11rem;
+  margin-top: .1rem;
+  margin-left: -0.1rem;
+}
+.CircleListPage .list .item .imgList li {
+  float: left;
+  width: .97rem;
+  margin-left: .1rem;
+}
+.CircleListPage .list .item .des {
+  font-size: .28rem;
+  color: #737373;
+  white-space: normal;
+}
+.CircleListPage .list .item .scanInfo {
+  float: right;
+  color: #383838;
+  font-size: .2rem;
+}
+.CircleListPage .list .item .scanInfo .scan {
+  background: url(/images/circleNeighborhood/circleList/2_10.png) no-repeat left center;
+  background-size: .26rem;
+  padding-left: 0.35rem;
+}
+.CircleListPage .list .item .scanInfo .comments {
+  background: url(/images/circleNeighborhood/circleList/2_13.png) no-repeat left center;
+  background-size: .26rem;
+  padding-left: 0.35rem;
+  margin-left: .1rem;
+}
+
+.CircleNeighborhoodHomePage {
+  background-color: #f9f9f9;
+  overflow: auto;
+}
+.CircleNeighborhoodHomePage .circleRecommend {
+  background-color: #fff;
+  border-bottom: .3rem solid #e0e0e0;
+}
+.CircleNeighborhoodHomePage .circleRecommend .circleRecommendList {
+  height: 2.6rem;
+}
+.CircleNeighborhoodHomePage .circleRecommend .circleRecommendList li {
+  float: left;
+  width: 25%;
+  margin-top: .2rem;
+}
+.CircleNeighborhoodHomePage .circleRecommend .circleRecommendList li .circleImage {
+  width: 1.69rem;
+  margin: auto;
+}
+.CircleNeighborhoodHomePage .circleRecommend .circleRecommendList li .circleName {
+  text-align: center;
+  font-size: .26rem;
+  color: #626262;
+  margin: 0;
+}
+.CircleNeighborhoodHomePage .newActivity {
+  background-color: #fff;
+  border-bottom: .3rem solid #e0e0e0;
+}
+.CircleNeighborhoodHomePage .newActivity .newActivityList {
+  height: 3rem;
+}
+.CircleNeighborhoodHomePage .newActivity .newActivityList li {
+  float: left;
+  width: 50%;
+  margin-top: .2rem;
+}
+.CircleNeighborhoodHomePage .newActivity .newActivityList .mark {
+  background: url(/images/circleNeighborhood/circleMark.png) no-repeat;
+  background-size: 1.2rem .5rem;
+  position: absolute;
+  color: #fff;
+  width: 1.2rem;
+  height: .5rem;
+  text-align: center;
+  margin-left: 0.05rem;
+  margin-top: .15rem;
+  line-height: .4rem;
+}
+.CircleNeighborhoodHomePage .newActivity .newActivityList .oneImg .activityImage {
+  margin-left: 0.15rem;
+  margin-top: 0.08rem;
+  width: 94%;
+}
+.CircleNeighborhoodHomePage .newActivity .newActivityList .fourImg .activityImage {
+  margin: auto;
+  width: 95%;
+}
+.CircleNeighborhoodHomePage .newActivity .newActivityList .fourImg .activityImage .img {
+  width: 45%;
+  margin: 0.05rem 0.05rem 0.1rem 0.1rem;
+}
+.CircleNeighborhoodHomePage .hotTopic {
+  background-color: #fff;
+  border-bottom: .3rem solid #e0e0e0;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent {
+  margin-left: .18rem;
+  margin-top: .18rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .info .headImag {
+  float: left;
+  display: inline-block;
+  width: .64rem;
+  height: .64rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .info .infoContent {
+  display: inline-block;
+  width: 6.18rem;
+  margin-right: .18rem;
+  margin-left: .18rem;
+  font-size: .2rem;
+  color: #313131;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .info .infoContent .ng-binding {
+  margin: 0;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .info .infoContent .nikyName {
+  font-size: .26rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .imgList {
+  width: 100%;
+  height: 1.11rem;
+  margin-left: 0.85rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .imgList li {
+  float: left;
+  width: .97rem;
+  margin-left: .1rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .infoBar {
+  height: .91rem;
+  font-size: .2rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .infoBar .left {
+  display: inline-block;
+  width: 3.22rem;
+  color: #979797;
+  margin-left: 0.9rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .infoBar .left .sourceContent {
+  color: #005ad8;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .infoBar .right {
+  display: inline-block;
+  margin-left: 0.7rem;
+  color: #686868;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .infoBar .right span {
+  color: #999;
+  font-size: .2rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .infoBar .right .iconImg1 {
+  background: url(/images/circleNeighborhood/r-laud.png) no-repeat;
+  background-size: .26rem;
+  display: inline-block;
+  padding-left: 0.35rem;
+}
+.CircleNeighborhoodHomePage .hotTopic .hotTopicContent .infoBar .right .iconImg2 {
+  background: url(/images/circleNeighborhood/r-talk.png) no-repeat left center;
+  background-size: .26rem;
+  display: inline-block;
+  padding-left: 0.35rem;
+  margin-left: .1rem;
+}
+.CircleNeighborhoodHomePage .titleLabel {
+  margin: 0;
+  height: .54rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.CircleNeighborhoodHomePage .titleLabel .label {
+  width: .05rem;
+  height: .54rem;
+  background-color: #d43134;
+  display: inline-block;
+}
+.CircleNeighborhoodHomePage .titleLabel .word {
+  color: #3a3a3a;
+  font-size: .3rem;
+  position: relative;
+  top: -0.18rem;
+  left: .1rem;
+}
+.CircleNeighborhoodHomePage .titleLabel .nextLink {
+  float: right;
+  line-height: .54rem;
+  margin-right: .2rem;
+  font-size: .25rem;
+  color: #0059b0;
+}
+
+.CreateTopicPage {
+  background-color: #f9f9f9;
+}
+.CreateTopicPage #topicContent {
+  height: 4rem;
+}
+.CreateTopicPage #topicContent textarea {
+  height: 4rem;
+}
+.CreateTopicPage .pictures {
+  background-color: white;
+  height: 1.75rem;
+}
+.CreateTopicPage .pictures .addIcon {
+  display: inline-block;
+  width: 1.21rem;
+  height: 1.21rem;
+  background: url(/images/addCamer.png) no-repeat center;
+  background-size: 1.21rem;
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+}
+.CreateTopicPage .bar-footer {
+  padding: 0;
+}
+.CreateTopicPage .bar-footer .buttons {
+  width: 100%;
+}
+.CreateTopicPage .bar-footer .buttons .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #328cca;
+  line-height: .8rem;
+}
+
+.dianfeiPageStyle {
+  background: #ededed;
+}
+.dianfeiPageStyle .orderCont,
+.dianfeiPageStyle .orderInfo,
+.dianfeiPageStyle .payElec,
+.dianfeiPageStyle .item-input {
+  background: #fff;
+  margin-bottom: .2rem;
+}
+.dianfeiPageStyle .orderCont h3 {
+  padding-top: .7rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+.dianfeiPageStyle .orderCont h3 p {
+  display: inline-block;
+  line-height: .7rem;
+  font-size: .28rem;
+  color: #666;
+  background: url(/images/payment/elec.png) no-repeat left center;
+  padding-left: .35rem;
+  background-size: .25rem;
+}
+.dianfeiPageStyle .orderCont h3 p .BigRed {
+  font-size: .5rem;
+  color: #D42D34;
+}
+.dianfeiPageStyle .orderCont h3 p .smallRed {
+  color: #D42D34;
+  margin-left: .1rem;
+}
+.dianfeiPageStyle .orderCont .promptDiv {
+  text-align: center;
+}
+.dianfeiPageStyle .orderCont .promptDiv .prompt {
+  display: inline-block;
+  font-size: .26rem;
+  padding-left: .4rem;
+  color: #D42D34;
+  background: url(/images/payment/prompt.png) no-repeat left center;
+  background-size: .3rem;
+  height: .5rem;
+  line-height: .55rem;
+}
+.dianfeiPageStyle .orderCont .selectAddress {
+  padding: 0 2%;
+  height: .8rem;
+  line-height: .8rem;
+  border-top: 1px solid #ddd;
+  font-size: .28rem;
+  color: #005AA8;
+  border-bottom: 1px solid #ddd;
+}
+.dianfeiPageStyle .orderCont .selectAddress .item-select {
+  width: 70%;
+  float: right;
+  height: .75rem;
+  border: none;
+  margin-top: .01rem;
+}
+.dianfeiPageStyle .orderCont .selectAddress .item-select select {
+  width: 100%;
+  font-size: .3rem;
+}
+.dianfeiPageStyle .orderInfo {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.dianfeiPageStyle .orderInfo .infoTit {
+  height: .8rem;
+  line-height: .8rem;
+  color: #005AA8;
+  margin-left: 2%;
+  border-bottom: 1px solid #ddd;
+  font-size: .28rem;
+}
+.dianfeiPageStyle .orderInfo .list {
+  padding: .2rem 0;
+}
+.dianfeiPageStyle .orderInfo .list .item {
+  font-size: .26rem;
+  border: none;
+  padding: 0 2%;
+  height: .6rem;
+  line-height: .6rem;
+}
+.dianfeiPageStyle .orderInfo .list .item .moneyInput {
+  border: 1px solid #ddd;
+  width: 50%;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: .1rem;
+  position: absolute;
+  height: .5rem;
+  line-height: .5rem;
+  top: .1rem;
+}
+.dianfeiPageStyle .orderInfo .list .item .moneyInput input[type=text] {
+  height: 100%;
+  font-size: .28rem;
+}
+.dianfeiPageStyle .orderInfo .list .item .position {
+  position: relative;
+  left: 53%;
+}
+.dianfeiPageStyle .payElec {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  height: 1.17rem;
+  line-height: 1.17rem;
+  padding: 0 2%;
+  color: #005AA8;
+  font-size: .28rem;
+}
+.dianfeiPageStyle .payElec .elec {
+  color: #777;
+  width: 80%;
+  float: right;
+  display: block;
+  height: 100%;
+  text-align: right;
+}
+.dianfeiPageStyle .protocol {
+  height: 1.3rem;
+}
+.dianfeiPageStyle .protocol .item-checkbox {
+  background: none;
+  border: none;
+}
+.dianfeiPageStyle .protocol label {
+  display: inline-block;
+  background: none;
+  border-width: 0;
+}
+.dianfeiPageStyle .protocol span,
+.dianfeiPageStyle .protocol a {
+  font-size: .25rem;
+}
+.dianfeiPageStyle .protocol .checkbox {
+  left: 0;
+}
+.dianfeiPageStyle .protocol .item-checkbox {
+  padding-left: 35px;
+}
+.dianfeiPageStyle .protocol .checkbox-icon {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+}
+.dianfeiPageStyle .protocol .checkbox-icon:after {
+  top: 26%;
+  left: 20%;
+  width: 12px;
+  height: 5px;
+}
+.dianfeiPageStyle .bar-footer {
+  padding: 0;
+}
+.dianfeiPageStyle .bar-footer .buttons {
+  width: 100%;
+}
+.dianfeiPageStyle .bar-footer .buttons .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #16A3EB;
+}
+
+.editProfilePageStyle {
+  background: #ededed;
+}
+.editProfilePageStyle .list {
+  margin-bottom: .2rem;
+  font-size: .3rem;
+}
+.editProfilePageStyle .list .color1 {
+  color: #15965D;
+  font-size: .25rem;
+}
+.editProfilePageStyle .list .item-button-right {
+  position: relative;
+  padding: 0 4%;
+  height: .9rem;
+  line-height: .9rem;
+  font-size: .3rem;
+}
+.editProfilePageStyle .list .item-button-right .button {
+  background: none;
+  text-align: right;
+  font-size: .3rem;
+  color: #999;
+  top: 0;
+  height: .9rem;
+  right: 2%;
+}
+.editProfilePageStyle .list .item-button-right .inputName {
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+.editProfilePageStyle .list .linkIcon {
+  display: block;
+  background: url(/images/mine/jiantou.png) no-repeat right center;
+  color: #444;
+  background-size: .2rem;
+}
+.editProfilePageStyle .list .imgWrap {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.editProfilePageStyle .list .imgWrap .getNewImg {
+  background: url(/images/mine/jiantou.png) no-repeat right center;
+  background-size: .2rem;
+  padding-right: .41rem;
+  top: 0;
+  height: 1.2rem;
+}
+.editProfilePageStyle .list .imgWrap .userImg {
+  position: absolute;
+  top: .18rem;
+  left: 26%;
+  height: .84rem;
+  width: .84rem;
+  border-radius: .85rem;
+}
+.editProfilePageStyle .mt1 {
+  margin-top: .2rem;
+}
+.editProfilePageStyle .bar-footer {
+  padding: 0;
+}
+.editProfilePageStyle .bar-footer .buttons {
+  width: 100%;
+}
+.editProfilePageStyle .bar-footer .buttons .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #328cc9;
+}
+
+.feedbackPageStyle {
+  background: #ededed;
+}
+.feedbackPageStyle .feedbackStyle h4 {
+  margin: 0;
+  padding: 0 4%;
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .3rem;
+}
+.feedbackPageStyle .feedbackStyle .textarea {
+  background: #fff;
+  width: 100%;
+  padding: .2rem 4%;
+  height: 2.6rem;
+  resize: none;
+  font-size: .28rem;
+  color: #999;
+  border: 1px solid #ddd;
+}
+.feedbackPageStyle .feedbackStyle .imgBox {
+  border: 1px solid #ddd;
+  margin: .2rem 0;
+  background: #fff;
+  padding: .1rem 4%;
+  overflow: hidden;
+}
+.feedbackPageStyle .feedbackStyle .imgBox h5 {
+  font-size: .3rem;
+  padding: 0;
+  margin: 0;
+  line-height: .6rem;
+}
+.feedbackPageStyle .feedbackStyle .imgBox ul {
+  height: 1.3rem;
+  margin: .1rem 0;
+}
+.feedbackPageStyle .feedbackStyle .imgBox ul li {
+  float: left;
+  width: 1.25rem;
+  height: 1.25rem;
+  overflow: hidden;
+  margin: 0 2.5% .2rem 0;
+}
+.feedbackPageStyle .feedbackStyle .imgBox ul .addImgBtn {
+  height: 1.23rem;
+  width: 1.23rem;
+  background: url(/images/myMenu/addImgBtn.png) no-repeat center center;
+  background-size: 1.2rem;
+  border: none;
+}
+.feedbackPageStyle .feedbackStyle .phoneInput {
+  background: #fff url(/images/forgotPwd/icon_01.png) no-repeat 4% center;
+  background-size: .32rem;
+  padding-left: 10%;
+}
+.feedbackPageStyle .feedbackStyle .button {
+  width: 60%;
+  margin: .6rem auto;
+  height: .95rem;
+  line-height: .95rem;
+  color: #fff;
+  font-size: .32rem;
+  background: #ffa800;
+  display: block;
+  border-radius: 5px;
+}
+
+.ForgotPwdPageStyle {
+  background: #f3f3f3;
+}
+.ForgotPwdPageStyle .forgotForm {
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+.ForgotPwdPageStyle .forgotForm .item {
+  border: 0;
+}
+.ForgotPwdPageStyle .forgotForm .button-positive {
+  width: 80%;
+  margin: .7rem auto;
+  display: block;
+  background: #ffa800;
+  font-size: .3rem;
+}
+.ForgotPwdPageStyle .forgotForm .phoneInput {
+  background: url(/images/forgotPwd/icon_01.png) no-repeat 0.15rem;
+  background-size: .35rem;
+  padding: .2rem;
+}
+.ForgotPwdPageStyle .forgotForm .codeInput {
+  background: url(/images/forgotPwd/icon_02.png) no-repeat 0.15rem;
+  background-size: .4rem;
+  padding: .15rem .2rem;
+}
+.ForgotPwdPageStyle .forgotForm .codeInput .button {
+  border: 1px solid #005bac;
+  color: #005bac;
+  margin: 0;
+  background: none;
+  font-size: .28rem;
+  line-height: .7rem;
+  padding: 0 .1rem;
+  min-height: .7rem;
+  min-width: 40%;
+}
+.ForgotPwdPageStyle .forgotForm .pwdInput {
+  background: url(/images/forgotPwd/icon_03.png) no-repeat 0.15rem;
+  background-size: .4rem;
+  padding: .2rem;
+}
+.ForgotPwdPageStyle .forgotForm .pwdComiInput {
+  background: url(/images/forgotPwd/icon_03.png) no-repeat 0.15rem;
+  background-size: .4rem;
+  padding: .2rem;
+}
+.ForgotPwdPageStyle .forgotForm .item-input {
+  padding-left: .8rem;
+  border-bottom: 2px solid #d0d0d0;
+}
+.ForgotPwdPageStyle .forgotForm .item-input input {
+  font-size: .3rem;
+  line-height: inherit;
+  color: #3a3a3a;
+}
+
+.historyList {
+  background-color: #eaeaea;
+  margin-top: .2rem;
+}
+.historyList .list .item-button-right {
+  background-color: white;
+  padding-right: 0;
+}
+.historyList .list .item-button-right .listInfo {
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .25rem;
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+}
+.historyList .list .item-button-right .listInfo h4 {
+  width: 30%;
+  text-align: center;
+  color: #666666;
+  float: left;
+  margin-left: -0.4rem;
+  font-size: .3rem;
+}
+.historyList .list .item-button-right .listInfo .onforward {
+  float: right;
+  margin-right: 2%;
+  font-size: .28rem;
+  color: #1281dc;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -0.16rem;
+}
+.historyList .list .item-button-right .detailMessage .address {
+  float: left;
+  margin-top: .2rem;
+  margin-left: .3rem;
+  width: 80%;
+}
+.historyList .list .item-button-right .detailMessage .address h2 {
+  font-size: .3rem;
+  color: #000000;
+  padding-left: .4rem;
+  background: url(/images/HouseRentImage/icon-location.png) no-repeat left center;
+  background-size: .2rem .3rem;
+}
+.historyList .list .item-button-right .detailMessage .address p {
+  font-size: .3rem;
+  color: #666666;
+  white-space: normal;
+  overflow: hidden;
+  padding-left: 6%;
+  position: relative;
+  top: .2rem;
+}
+.historyList .list .item-button-right .button.button-positive {
+  padding: 0;
+  border-color: transparent;
+  color: #fff;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+.historyList .list .item-button-right .button.button-positive .moneyClass {
+  color: #ffc678;
+  font-size: .3rem;
+}
+.historyList .list .item-button-right .button.button-positive .unitClass {
+  color: black;
+  font-size: .2rem;
+}
+.historyListPageStyle {
+  background: #ededed;
+}
+.historyListPageStyle .listInfo {
+  margin-top: .16rem;
+  background: #fff;
+  padding: 0 4%;
+}
+.historyListPageStyle .listInfo .listTit {
+  height: .7rem;
+  line-height: .7rem;
+  border-bottom: 1px solid #dadada;
+  font-size: .24rem;
+  color: #999;
+}
+.historyListPageStyle .listInfo .z-left {
+  width: 40%;
+  float: left;
+}
+.historyListPageStyle .listInfo .z-right {
+  width: 60%;
+  float: right;
+  text-align: right;
+}
+.historyListPageStyle .listInfo .listCont {
+  border-bottom: 1px dashed #d9d9d9;
+  padding: .1rem 0;
+}
+.historyListPageStyle .listInfo .listCont li {
+  overflow: hidden;
+  font-size: .28rem;
+  padding: .06rem 0;
+  line-height: .35rem;
+}
+.historyListPageStyle .listInfo .listCont:last-child {
+  border-bottom: none;
+}
+
+.HistoryRepairStyle {
+  overflow: auto;
+}
+.HistoryRepairStyle .tabs {
+  height: .9rem;
+  width: 100%;
+}
+.HistoryRepairStyle .tabs .tab-item {
+  max-width: 50%;
+  line-height: .9rem;
+  opacity: 1;
+  color: #555;
+}
+.HistoryRepairStyle .has-tabs-top {
+  top: 0px;
+  margin-top: 1.8rem;
+}
+.HistoryRepairStyle .tab-item-active {
+  border-bottom: 2px solid #005bac;
+}
+.HistoryRepairStyle .tab-item-active .tab-title {
+  color: #005bac;
+}
+.HistoryRepairStyle .borderRight {
+  height: .5rem;
+  top: .22rem;
+  left: 50%;
+  border-right: 1px solid #ddd;
+  position: absolute;
+}
+.HistoryRepairStyle .dataNum {
+  position: absolute;
+  height: 0.3rem;
+  width: 0.3rem;
+  top: 0.15rem;
+  border-radius: 0.3rem;
+  margin-left: 35%;
+  background-color: red;
+  text-align: center;
+  color: white;
+  line-height: 0.3rem;
+  font-size: 0.13rem;
+}
+.HistoryRepairStyle .tab-item .icon {
+  height: 0;
+}
+.HistoryRepairStyle .tab-title {
+  font-size: .3rem;
+  color: #555;
+  line-height: 0.9rem;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.repairListPageStyle .list a.item {
+  height: 1.8rem;
+}
+.repairListPageStyle .list .item-thumbnail-left {
+  padding-left: 2.2rem;
+  min-height: 0.2rem;
+}
+.repairListPageStyle .list img {
+  width: 1.8rem;
+  max-height: 6rem;
+  max-width: 6rem;
+  height: 1.43rem;
+  top: 0.17rem;
+}
+.repairListPageStyle .list h2 {
+  font-size: 0.28rem;
+  white-space: normal;
+}
+.repairListPageStyle .list h4 {
+  font-size: 0.23rem;
+  color: #ff0517;
+  margin-top: 0.1rem;
+}
+.repairListPageStyle .list .content {
+  height: 0.9rem;
+  margin-right: 0.15rem;
+  margin-top: 0.1rem;
+}
+
+.houseTopPageStyle .tabs {
+  height: .9rem;
+  width: 100%;
+}
+.houseTopPageStyle .tabs .tab-item {
+  max-width: 50%;
+  line-height: .9rem;
+  opacity: 1;
+  color: #555;
+}
+.houseTopPageStyle .has-tabs-top {
+  top: 44px;
+  margin-top: .87rem;
+}
+.houseTopPageStyle .tab-item-active {
+  border-bottom: 2px solid #005bac;
+}
+.houseTopPageStyle .tab-item-active .tab-title {
+  color: #005bac;
+}
+.houseTopPageStyle .borderRight {
+  height: .5rem;
+  top: .22rem;
+  left: 50%;
+  border-right: 1px solid #ddd;
+  position: absolute;
+}
+.houseTopPageStyle .tab-item .icon {
+  height: 0;
+}
+.houseTopPageStyle .tab-title {
+  font-size: .3rem;
+  color: #555;
+  line-height: .9rem;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.houseTopPageStyle .contTab {
+  height: .8rem;
+  padding: 0;
+  background: #fff;
+  position: relative;
+}
+.houseTopPageStyle .contTab .centerBorder {
+  position: absolute;
+  top: .15rem;
+  height: .5rem;
+  border-right: 1px solid #ddd;
+}
+.houseTopPageStyle .contTab a {
+  display: block;
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: .8rem;
+  line-height: .8rem;
+  font-size: .3rem;
+  color: #888;
+}
+.houseTopPageStyle .contTab a.curLink {
+  color: #005bac;
+  border-bottom: 2px solid #005bac;
+}
+.houseListPageStyle {
+  background: #ededed;
+}
+.houseListPageStyle .list .item-button-right {
+  background: #fff url('/images/mine/jiantou.png') no-repeat 95% center;
+  background-size: .2rem;
+  padding: 0 4%;
+}
+.houseListPageStyle .list .item-button-right .addressLink {
+  color: #313131;
+  display: block;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+}
+.houseListPageStyle .allHouse .item {
+  padding: 0;
+}
+.houseListPageStyle .allHouse .item h6 {
+  padding: 0 4%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+  background: url('/images/myMenu/down.png') no-repeat 95% center;
+  background-size: .35rem;
+  color: #313131;
+}
+.houseListPageStyle .allHouse .item .showHouse {
+  background: url('/images/myMenu/up.png') no-repeat 95% center;
+  background-size: .35rem;
+}
+.houseListPageStyle .allHouse .item .houseList {
+  background: #f6f6f6;
+  padding: .1rem 3%;
+  font-size: .28rem;
+  overflow: hidden;
+}
+.houseListPageStyle .allHouse .item .houseList li {
+  float: left;
+  padding: .1rem .15rem;
+}
+.houseListPageStyle .houseMemberPageStyle {
+  box-shadow: none;
+  border: 1px solid #ddd;
+  margin: .2rem;
+}
+.houseListPageStyle .houseMemberPageStyle .item-divider {
+  background: #fff;
+}
+.houseListPageStyle .houseMemberPageStyle .item-divider h5 {
+  font-size: .3rem;
+  color: #265291;
+}
+.houseListPageStyle .houseMemberPageStyle .item-divider p {
+  font-size: .28rem;
+  font-weight: normal;
+}
+.houseListPageStyle .houseMemberPageStyle .item-text-wrap {
+  padding: .25rem 4% .05rem 4%;
+}
+.houseListPageStyle .houseMemberPageStyle .item-text-wrap .peopleList {
+  overflow: hidden;
+}
+.houseListPageStyle .houseMemberPageStyle .item-text-wrap .peopleList .NoneBg {
+  background: none;
+  color: #265291;
+  padding: .05rem .2rem 0 0;
+  height: .7rem;
+  float: left;
+}
+.houseListPageStyle .houseMemberPageStyle .item-text-wrap .peopleList ul {
+  overflow: hidden;
+}
+.houseListPageStyle .houseMemberPageStyle .item-text-wrap .peopleList ul li {
+  padding: .05rem .25rem;
+  float: left;
+  margin-right: .2rem;
+  background: #265291;
+  color: #fff;
+  margin-bottom: .1rem;
+  font-size: .26rem;
+}
+
+.houseDetail {
+  background-color: #e9e9e9;
+}
+.houseDetail .bannerImg img {
+  display: block;
+}
+.houseDetail .messageHouse {
+  position: relative;
+  background-color: white;
+}
+.houseDetail .messageHouse h1 {
+  font-size: .3rem;
+  margin-left: 3%;
+  padding-top: 3%;
+}
+.houseDetail .messageHouse .detailhouseType {
+  float: right;
+  width: 60%;
+  margin-top: -0.6rem;
+  font-size: .26rem;
+  margin-right: -0.7rem;
+  color: #888888;
+}
+.houseDetail .messageHouse p {
+  font-size: .3rem;
+  color: red;
+  margin-left: 3%;
+}
+.houseDetail .messageHouse hr {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.houseDetail .messageHouse .typeAndArea {
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.houseDetail .messageHouse .typeAndArea div {
+  margin-top: 0;
+  float: left;
+  width: 50%;
+  font-size: .3rem;
+  color: black;
+  line-height: .6rem;
+}
+.houseDetail .messageHouse .typeAndArea div span {
+  margin-left: 8%;
+  font-size: .3rem;
+  color: black;
+}
+.houseDetail .item-divider {
+  margin-top: 20px;
+  background-color: #ffffff;
+  font-size: .4rem;
+  color: #0d469c;
+  border-bottom: 1px solid #ddd;
+}
+.houseDetail .houseDevice {
+  background-color: white;
+  height: 2.8rem;
+  margin-bottom: .5rem;
+}
+.houseDetail .houseDevice div {
+  background-color: white;
+  width: 25%;
+  float: left;
+  padding-top: 2%;
+  padding-right: 0%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+.houseDetail .houseDevice div p {
+  font-size: .3rem;
+  float: right;
+  width: 100%;
+  text-align: center;
+  height: .6rem;
+  line-height: .6rem;
+}
+.houseDetail .houseDevice div .bedOne {
+  background: url(/images/HouseRentImage/icon-bed.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .40rem .37rem;
+}
+.houseDetail .houseDevice div .sofaTwo {
+  background: url(/images/HouseRentImage/icon-sofa.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .45rem .43rem;
+}
+.houseDetail .houseDevice div .furnitureThree {
+  background: url(/images/HouseRentImage/icon-furniture.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .45rem .43rem;
+}
+.houseDetail .houseDevice div .heatingFoure {
+  background: url(/images/HouseRentImage/icon-heating.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .45rem .43rem;
+}
+.houseDetail .houseDevice div .airConditionFive {
+  background: url(/images/HouseRentImage/icon-airCondition.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .45rem .43rem;
+}
+.houseDetail .houseDevice div .dishWashSix {
+  background: url(/images/HouseRentImage/icon-dishWashingMachine.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .40rem .37rem;
+}
+.houseDetail .houseDevice div .microwSeven {
+  background: url(/images/HouseRentImage/icon-microwaveOven.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .40rem .47rem;
+}
+.houseDetail .houseDevice div .washerEight {
+  background: url(/images/HouseRentImage/icon-washer.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .40rem .37rem;
+}
+.houseDetail .houseDevice div .showerNine {
+  background: url(/images/HouseRentImage/icon-shower.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .45rem .43rem;
+}
+.houseDetail .houseDevice div .bathPoolTen {
+  background: url(/images/HouseRentImage/icon-commonBathingPool.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .45rem .43rem;
+}
+.houseDetail .houseDevice div .televEleven {
+  background: url(/images/HouseRentImage/icon-teleVision.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .40rem .37rem;
+}
+.houseDetail .houseDevice div .carportDesc {
+  background: url(/images/HouseRentImage/icon-carport.png) no-repeat left center;
+  background-position: 0% 30%;
+  background-size: .45rem .43rem;
+}
+.houseDetail .bar {
+  background-color: #124bad;
+}
+.houseDetail .bar span {
+  width: 100%;
+  height: 100%;
+  margin: .2rem auto 0;
+  text-align: center;
+  color: white;
+  font-size: .35rem;
+}
+
+.linkDiv .rentOutlink {
+  background: #fff;
+  color: #387ef5;
+  padding: .12rem;
+  border-radius: .3rem 0 0 .3rem;
+  position: relative;
+  left: .1rem;
+  border: 1px solid #fff;
+  font-size: .28rem;
+}
+.linkDiv .requestlink {
+  border: 1px solid #fff;
+  padding: .12rem;
+  border-radius: 0 .3rem .3rem 0;
+  font-size: .28rem;
+  position: relative;
+  right: .1rem;
+}
+.houseRentMessage {
+  background-color: #f9f9f9;
+  overflow: auto;
+}
+.houseRentMessage .bannerImg img {
+  display: block;
+}
+.houseRentMessage .divAddress {
+  padding: .1rem;
+  background-color: #124b99;
+  height: 0.67rem;
+}
+.houseRentMessage .divAddress h2 {
+  font-size: 0.3rem;
+  color: white;
+  margin: 4px 0 5px 18px;
+}
+.houseRentMessage .link {
+  background-color: #ffffff;
+  height: 0.67rem;
+  position: relative;
+}
+.houseRentMessage .link li {
+  width: 25%;
+  text-align: center;
+  float: left;
+  border-right: 1px solid #ddd;
+  height: .67rem;
+  line-height: .67rem;
+  font-size: 0.3rem;
+  color: black;
+  background: url(/images/HouseRentImage/dark-pull-down.png) no-repeat right center;
+  background-size: .22rem .14rem;
+  background-position: 80% 50%;
+}
+.houseRentMessage .link .choiceShow {
+  position: absolute;
+  top: .5rem;
+  z-index: 9;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.houseRentMessage .link .choiceShow li {
+  float: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: left;
+  padding-left: 10%;
+  background: url();
+}
+.houseRentMessage .link .choiceShow .YeTaiList {
+  border-top: 1px solid #ddd;
+  margin-top: .1rem;
+  display: none;
+}
+.houseRentMessage .link .choiceShow .YeTaiList li {
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat right center;
+  background-size: .5rem;
+  background-position: 95%;
+}
+.houseRentMessage .link .choiceShow .YeTaiList .lastYeTai {
+  height: .7rem;
+  text-align: center;
+  padding-top: .1rem;
+  color: #ddd;
+  font-size: .5rem;
+}
+.houseRentMessage .link .choiceShow .yetailist {
+  display: block;
+}
+.houseRentMessage .link .choiceShow .yetailist .yetailistImage {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat right center;
+  background-size: .5rem;
+  background-position: 95%;
+}
+.houseRentMessage .link .choiceShow .PriceList {
+  border-top: 1px solid #ddd;
+  margin-top: .1rem;
+  display: none;
+}
+.houseRentMessage .link .choiceShow .PriceList li {
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat right center;
+  background-size: .5rem;
+  background-position: 95%;
+}
+.houseRentMessage .link .choiceShow .PriceList .priceLastDiv {
+  height: .7rem;
+  text-align: center;
+  padding-top: .1rem;
+  color: #ddd;
+  font-size: .5rem;
+}
+.houseRentMessage .link .choiceShow .Price {
+  display: block;
+}
+.houseRentMessage .link .choiceShow .Price .PricelistImage {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat right center;
+  background-size: .5rem;
+  background-position: 95%;
+}
+.houseRentMessage .link .choiceShow .HouseTypeList {
+  border-top: 1px solid #ddd;
+  margin-top: .1rem;
+  display: none;
+}
+.houseRentMessage .link .choiceShow .HouseTypeList li {
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat right center;
+  background-size: .5rem;
+  background-position: 95%;
+}
+.houseRentMessage .link .choiceShow .HouseTypeList .houseTypeLastDiv {
+  height: .7rem;
+  text-align: center;
+  padding-top: .1rem;
+  color: #ddd;
+  font-size: .5rem;
+}
+.houseRentMessage .link .choiceShow .HouseType {
+  display: block;
+}
+.houseRentMessage .link .choiceShow .HouseType .HouseTypelistImage {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat right center;
+  background-size: .5rem;
+  background-position: 95%;
+}
+.houseRentMessage .link .choiceShow .FaceList {
+  border-top: 1px solid #ddd;
+  margin-top: .1rem;
+  display: none;
+  width: 100%;
+}
+.houseRentMessage .link .choiceShow .FaceList li {
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat right center;
+  background-size: .5rem;
+  background-position: 95%;
+}
+.houseRentMessage .link .choiceShow .FaceList .FaceLastDiv {
+  height: .7rem;
+  text-align: center;
+  padding-top: .1rem;
+  color: #ddd;
+  font-size: .5rem;
+}
+.houseRentMessage .link .choiceShow .Face {
+  display: block;
+}
+.houseRentMessage .link .choiceShow .Face .FacelistImage {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat right center;
+  background-size: .5rem;
+  background-position: 95%;
+}
+.houseRentMessage .spaceItem {
+  height: 0.2rem;
+  border-style: sold;
+  border-color: #ededed;
+  border-top-width: 100%;
+  border-bottom-width: 100%;
+  border-top-color: black;
+  border-bottom-color: black;
+}
+.houseRentMessage .list {
+  position: relative;
+}
+.houseRentMessage .list .shadowDiv {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 8;
+  display: none;
+}
+.houseRentMessage .list .ShadowDiv {
+  display: block;
+}
+.houseRentMessage .list .item-thumbnail-left {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.houseRentMessage .list .item-thumbnail-left img {
+  max-width: 40%;
+  max-height: 80%;
+}
+.houseRentMessage .list .item-thumbnail-left h3 {
+  margin-left: 50%;
+  font-size: 0.32rem;
+  color: black;
+}
+.houseRentMessage .list .item-thumbnail-left p {
+  margin-top: 0.4rem;
+  font-size: 0.26rem;
+  margin-left: 50%;
+  color: #666666;
+}
+.houseRentMessage .list .item-thumbnail-left p label {
+  position: relative;
+  botton: .2rem;
+  bottom: .1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.houseRentMessage .list .item-thumbnail-left h2 {
+  margin-top: 0.4rem;
+  margin-left: 50%;
+  font-size: 0.36rem;
+  color: red;
+}
+.houseRentMessage .bar-footer {
+  width: 100%;
+  padding: 0 0 0 0;
+  height: .9rem;
+}
+.houseRentMessage .bar-footer .rentOutButton {
+  width: 50%;
+  background-color: #16a2eb;
+  font-size: 0.36rem;
+  color: white;
+  text-decoration: none;
+  border-style: none;
+  text-align: center;
+  line-height: .9rem;
+}
+.houseRentMessage .bar-footer .requestRentButton {
+  width: 50%;
+  background-color: #005bac;
+  font-size: 0.36rem;
+  color: white;
+  text-decoration: none;
+  border-style: none;
+  text-align: center;
+  line-height: .9rem;
+}
+
+.requestTitle .requestOutlink {
+  color: #fff;
+  padding: .12rem;
+  border-radius: .3rem 0 0 .3rem;
+  position: relative;
+  left: .1rem;
+  border: 1px solid #fff;
+  font-size: .28rem;
+}
+.requestTitle .requestlinkTitle {
+  border: 1px solid #fff;
+  padding: .12rem;
+  border-radius: 0 .3rem .3rem 0;
+  font-size: .28rem;
+  background: #fff;
+  color: #387ef5;
+}
+.houseRequestRent {
+  background-color: #eaeaea;
+}
+.houseRequestRent .rentRequestList {
+  margin: 0.2rem;
+}
+.houseRequestRent .rentRequestList .item h2 {
+  color: #89add8;
+  font-size: .35rem;
+}
+.houseRequestRent .rentRequestList .item hr {
+  margin: 0;
+}
+.houseRequestRent .rentRequestList .item .expectArea {
+  overflow: hidden;
+  white-space: normal;
+  color: #b4b4b4;
+  font-size: .3rem;
+}
+.houseRequestRent .rentRequestList .item .expectType {
+  font-size: 0.3rem;
+  color: #787878;
+  padding-top: .15rem;
+}
+
+.IndexPageStyle {
+  background-color: #f9f9f9;
+  overflow: auto;
+  /*	.tit{
+		margin:0;
+	}
+	.tit .label {
+	    width: .1rem;
+	    height: .54rem;
+	    background-color: #ffa800;
+	    display: inline-block;
+	}
+	.tit .word {
+	    color: #3a3a3a;
+	    font-size: .3rem;
+	    position: relative;
+	    top: -.13rem;
+	    left: .1rem;
+	}	*/
+}
+.IndexPageStyle .bar.bar-stable {
+  background-color: #f9f9f9;
+}
+.IndexPageStyle .slider .slider-pager {
+  bottom: .2rem;
+}
+.IndexPageStyle .slider .slider-pager .slider-pager-page {
+  color: #fff;
+}
+.IndexPageStyle .slider .slider-pager img {
+  display: block;
+}
+.IndexPageStyle .slider .box .desc {
+  position: absolute;
+  font-size: .34rem;
+  color: #ffc555;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  line-height: 1rem;
+}
+.IndexPageStyle .topInfo {
+  height: .6rem;
+  padding: .1rem;
+  line-height: .4rem;
+}
+.IndexPageStyle .topInfo .date {
+  color: #265291;
+  font-size: .28rem;
+  float: left;
+}
+.IndexPageStyle .topInfo .weather {
+  float: right;
+  font-size: .3rem;
+  position: relative;
+  top: -0.05rem;
+}
+.IndexPageStyle .topInfo .weather img {
+  position: relative;
+  top: .06rem;
+  width: .64rem;
+  height: .38rem;
+}
+.IndexPageStyle .property {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+.IndexPageStyle .property .menuList {
+  background-color: #fff;
+  height: 4rem;
+}
+.IndexPageStyle .property .menuList li {
+  float: left;
+  width: 25%;
+  margin-top: .3rem;
+}
+.IndexPageStyle .property .menuList li .menu_icon {
+  width: 1.02rem;
+  margin: auto;
+}
+.IndexPageStyle .property .menuList li .menu_name {
+  text-align: center;
+  font-size: .26rem;
+  color: #626262;
+  margin: 0;
+}
+.IndexPageStyle .activity {
+  background-color: #fff;
+  padding: .2rem;
+  margin-top: .2rem;
+  padding-bottom: 0;
+  clear: both;
+  overflow: hidden;
+}
+.IndexPageStyle .activity .act_01 {
+  float: left;
+}
+.IndexPageStyle .activity .act_02 {
+  float: left;
+  margin-top: .1rem;
+}
+.IndexPageStyle .activity .act_02 .rightImg {
+  border: 1px solid #ddd;
+  height: 1.48rem;
+}
+.IndexPageStyle .activity .leftTit {
+  width: 1.5rem;
+  height: 1.48rem;
+  background: #005bac;
+  padding: .3rem 0;
+  float: left;
+}
+.IndexPageStyle .activity .leftTit p {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: .34rem;
+  line-height: .5rem;
+}
+.IndexPageStyle .activity .rightImg {
+  float: left;
+  width: 5.54rem;
+}
+.IndexPageStyle .activity .rightImg img {
+  width: 100%;
+}
+.IndexPageStyle .activity .rightImg .info {
+  color: #666;
+  font-size: .2rem;
+  padding-left: .1rem;
+}
+.IndexPageStyle .activity .rightImg .imgList {
+  display: inline-flex;
+  padding: .2rem .1rem;
+  padding-bottom: 0;
+}
+.IndexPageStyle .activity .rightImg .imgList img {
+  width: .76rem;
+  height: .76rem;
+}
+.IndexPageStyle .activity .rightImg .imgList li {
+  float: left;
+  margin-right: .1rem;
+  width: .76rem;
+}
+.IndexPageStyle .activity .rightImg .scroll-view.scroll-x {
+  overflow-x: hidden;
+}
+.IndexPageStyle .clubList {
+  background: #fff;
+  margin-bottom: .2rem;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: .2rem;
+}
+.IndexPageStyle .clubList li {
+  float: left;
+  width: 3.45rem;
+  margin-left: .2rem;
+  margin-top: .2rem;
+  height: 4rem;
+}
+.IndexPageStyle .clubList .mark {
+  background: url(/images/index/bg_01.png) no-repeat;
+  background-size: 1.2rem .5rem;
+  position: absolute;
+  color: #fff;
+  width: 1.2rem;
+  height: .5rem;
+  text-align: center;
+  margin-left: -0.08rem;
+  margin-top: .1rem;
+  line-height: .4rem;
+}
+.IndexPageStyle .clubList img {
+  display: block;
+}
+.IndexPageStyle .clubList p {
+  color: #666;
+  font-size: .22rem;
+  margin: 0;
+}
+.IndexPageStyle .clubList hr {
+  margin: .1rem 0;
+}
+.IndexPageStyle .clubList .descMain {
+  background: #f5f5f5;
+  padding: .1rem;
+}
+.IndexPageStyle .clubList .descMain .infoBar span {
+  color: #999;
+  font-size: .2rem;
+}
+.IndexPageStyle .clubList .descMain .infoBar .likeNum {
+  background: url(/images/index/dianzan.png) no-repeat;
+  background-size: .3rem;
+  display: inline-block;
+  padding-left: 0.35rem;
+}
+.IndexPageStyle .clubList .descMain .infoBar .comment {
+  background: url(/images/index/pinglun.png) no-repeat left center;
+  background-size: .3rem;
+  display: inline-block;
+  padding-left: 0.35rem;
+  margin-left: .1rem;
+}
+.IndexPageStyle .wanda {
+  background-color: #fff;
+  clear: both;
+  margin: .2rem 0;
+  padding-top: .2rem;
+  padding-bottom: .08rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+.IndexPageStyle .wanda .col {
+  padding: 0;
+  text-align: center;
+  height: 1.5rem;
+  margin-bottom: 8px;
+}
+.IndexPageStyle .wanda .col img {
+  width: 2.32rem;
+  height: 1.5rem;
+}
+.IndexPageStyle .wanda .row {
+  padding: 0 .2rem;
+}
+
+.headTab {
+  height: 28px;
+  line-height: 28px;
+  margin: 8px auto;
+  border: 1px solid #ccdeee;
+  border-radius: 35px;
+  font-weight: normal;
+  color: #fff;
+  width: 60%;
+  font-size: .3rem;
+}
+.headTab p {
+  float: left;
+  text-align: center;
+  width: 50%;
+  height: 27px;
+}
+.headTab p.currentLeft {
+  background: #ccdeee;
+  color: #005bac;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+.headTab p.currentRight {
+  background: #ccdeee;
+  color: #005bac;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.invitePageStyle {
+  background: #ededed;
+}
+.invitePageStyle .subSearch {
+  height: 1.1rem;
+  padding: .15rem .2rem;
+  background: #ededed;
+  overflow: hidden;
+}
+.invitePageStyle .subSearch .searchBox {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0;
+  height: .8rem;
+}
+.invitePageStyle .subSearch .searchBox .item-input-wrapper {
+  background: none;
+}
+.invitePageStyle .subSearch .searchBox .item-input-wrapper input {
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+.invitePageStyle .subSearch .searchBox .ion-ios-search:before {
+  background: url('/images/myMenu/6.4_03.png') no-repeat center center;
+  background-size: .4rem;
+  height: .5rem;
+  width: .6rem;
+  font-family: '';
+}
+.invitePageStyle .subSearch .searchBox .button {
+  border-left: 1px solid #eee;
+  color: #005bac;
+  min-width: 1.5rem;
+  line-height: .6rem;
+}
+.invitePageStyle .scroll-content {
+  margin-top: .9rem;
+}
+.invitePageStyle .scroll-content .item {
+  padding: .1rem .2rem .6rem 1.2rem;
+  margin: 0;
+  margin-top: .2rem;
+}
+.invitePageStyle .scroll-content .item img:first-child {
+  height: .8rem;
+  width: .8rem;
+  border-radius: .8rem;
+}
+.invitePageStyle .scroll-content .item .listTit {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: .1rem;
+}
+.invitePageStyle .scroll-content .item .listTit h2 {
+  font-size: .3rem;
+  color: #328cc9;
+  height: .45rem;
+  line-height: .45rem;
+}
+.invitePageStyle .scroll-content .item .listTit h2 span {
+  font-size: .15rem;
+  border: 1px solid #999;
+  color: #999;
+  padding: .02rem .1rem;
+  margin-left: .1rem;
+}
+.invitePageStyle .scroll-content .item .listTit p {
+  color: #999;
+  font-size: .18rem;
+}
+.invitePageStyle .scroll-content .item .desc {
+  color: #333;
+  font-size: .24rem;
+}
+.invitePageStyle .scroll-content .item .title {
+  color: #999;
+  font-size: .24rem;
+}
+.invitePageStyle .scroll-content .item .littleIcon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: .5rem;
+  line-height: .5rem;
+  border-top: 1px solid #eee;
+}
+.invitePageStyle .scroll-content .item .littleIcon p {
+  width: 50%;
+  display: block;
+  float: left;
+  text-align: center;
+}
+.invitePageStyle .scroll-content .item .littleIcon p .bestCount {
+  background: url('/images/photograph/zan.png') no-repeat left center;
+  background-size: .3rem;
+  padding-left: .4rem;
+}
+.invitePageStyle .scroll-content .item .littleIcon p .talkCount {
+  background: url('/images/photograph/talk.png') no-repeat left center;
+  background-size: .3rem;
+  padding-left: .4rem;
+}
+
+.isayPageStyle {
+  background-color: #ededed;
+}
+.isayPageStyle .biaoyangStyle {
+  margin-top: .2rem;
+  background-color: #fff;
+}
+.isayPageStyle .bannerTab {
+  height: 3.28rem;
+  background: url('/images/isay/bgImg.jpg') no-repeat center top;
+  width: 100%;
+  padding: 0 14% 0 8%;
+}
+.isayPageStyle .bannerTab .faceImg {
+  width: 60%;
+  float: left;
+  margin-top: .35rem;
+}
+.isayPageStyle .bannerTab .faceImg li {
+  height: 2.4rem;
+  width: 2.6rem;
+}
+.isayPageStyle .bannerTab .faceImg .smile1 {
+  background: url('/images/isay/smile1.png') no-repeat center center;
+  background-size: 2.6rem;
+}
+.isayPageStyle .bannerTab .faceImg .smile2 {
+  background: url('/images/isay/smile2.png') no-repeat center center;
+  background-size: 2.6rem;
+}
+.isayPageStyle .bannerTab .faceImg .smile3 {
+  background: url('/images/isay/smile3.png') no-repeat center center;
+  background-size: 2.4rem;
+}
+.isayPageStyle .bannerTab .faceWord {
+  width: 40%;
+  float: right;
+  height: 2.7rem;
+  background: url('/images/isay/line.png') no-repeat right center;
+  background-size: .18rem;
+  margin-top: .25rem;
+  position: relative;
+}
+.isayPageStyle .bannerTab .faceWord li {
+  height: .5rem;
+  line-height: .5rem;
+  width: 80%;
+  text-align: center;
+  margin-top: .33rem;
+  color: #fff;
+  font-size: .3rem;
+  padding-right: 6%;
+}
+.isayPageStyle .bannerTab .faceWord li.curLi {
+  background: url('/images/isay/bgLi.png') no-repeat right center;
+  background-size: 2.33rem;
+}
+.isayPageStyle .bannerTab .faceWord .heat {
+  position: absolute;
+  right: -0.2rem;
+  height: .57rem;
+  width: .6rem;
+  display: block;
+  background: url('/images/isay/heat.png') no-repeat right center;
+  background-size: .56rem;
+}
+.isayPageStyle .bannerTab .faceWord .top1 {
+  top: .22rem;
+}
+.isayPageStyle .bannerTab .faceWord .top2 {
+  top: 1.1rem;
+}
+.isayPageStyle .bannerTab .faceWord .top3 {
+  top: 1.95rem;
+}
+.isayPageStyle h4 {
+  margin: 0;
+  padding: 0 4%;
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .3rem;
+  color: #005bac;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: .2rem;
+}
+.isayPageStyle .textarea {
+  background: #ededed;
+  width: 94%;
+  padding: .2rem 4%;
+  height: 2.6rem;
+  resize: none;
+  font-size: .28rem;
+  color: #888;
+  margin: .2rem 3%;
+}
+.isayPageStyle .voice {
+  width: 94%;
+  margin: .1rem 3%;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  min-height: .64rem;
+  line-height: .64rem;
+  font-size: .24rem;
+}
+.isayPageStyle .voice img {
+  width: .24rem;
+  height: .33rem;
+  position: relative;
+  top: 2px;
+}
+.isayPageStyle .imgBox {
+  border: 1px solid #ddd;
+  margin: .2rem 0;
+  background: #fff;
+  padding: .1rem 3%;
+  overflow: hidden;
+}
+.isayPageStyle .imgBox h5 {
+  font-size: .26rem;
+  padding: 0;
+  margin: 0;
+  line-height: .6rem;
+  color: #888;
+}
+.isayPageStyle .imgBox ul {
+  height: 1.3rem;
+  margin: .1rem 0;
+}
+.isayPageStyle .imgBox ul li {
+  float: left;
+  width: 1.25rem;
+  height: 1.25rem;
+  overflow: hidden;
+  margin: 0 2.5% .2rem 0;
+}
+.isayPageStyle .imgBox ul .takeImgBtn {
+  height: 1.23rem;
+  width: 1.23rem;
+  background: url(/images/isay/takePhoto.png) no-repeat center center;
+  background-size: 1.2rem;
+  border: none;
+}
+.isayPageStyle .imgBox ul .addImgBtn {
+  height: 1.23rem;
+  width: 1.23rem;
+  background: url(/images/isay/add.png) no-repeat center center;
+  background-size: 1.2rem;
+  border: none;
+}
+.isayPageStyle .list {
+  margin-top: .2rem;
+  padding: 0;
+}
+.isayPageStyle .list .item-button-right {
+  padding: 0 0 0 4%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+  background: none;
+  background-color: #fff;
+}
+.isayPageStyle .list .item-button-right .item-select {
+  width: 80%;
+  float: right;
+  height: 100%;
+  border: none;
+  padding: 0;
+}
+.isayPageStyle .list .item-button-right .item-select select {
+  max-width: 100%;
+  padding: 2px 31px 0 0px;
+  font-size: .3rem;
+}
+.isayPageStyle .list .item-button-right .button {
+  height: 1rem;
+  line-height: 1rem;
+  top: 0;
+  background: none;
+  font-size: .3rem;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  text-align: right;
+  right: 2%;
+}
+.isayPageStyle .bar-footer {
+  padding: 0;
+}
+.isayPageStyle .bar-footer .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #328cc9;
+}
+.isayPageStyle .tabs {
+  height: .9rem;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.isayPageStyle .tabs .tab-item {
+  max-width: 50%;
+  line-height: .9rem;
+  opacity: 1;
+  color: #555;
+}
+.isayPageStyle .has-tabs-top {
+  top: 44px;
+  margin-top: 3.28rem;
+}
+.isayPageStyle .tab-item-active {
+  border-bottom: 3px solid #ffa358;
+}
+.isayPageStyle .tab-item-active .tab-title {
+  color: #333;
+}
+.isayPageStyle .tab-item .icon {
+  height: 0;
+}
+.isayPageStyle .tab-title {
+  font-size: .3rem;
+  color: #666;
+  line-height: .9rem;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #ddd;
+}
+.isayHistoryPageStyle {
+  background-color: #ededed;
+}
+.isayHistoryPageStyle .tabs {
+  height: .9rem;
+  width: 100%;
+}
+.isayHistoryPageStyle .tabs .tab-item {
+  max-width: 50%;
+  line-height: .9rem;
+  opacity: 1;
+  color: #555;
+}
+.isayHistoryPageStyle .has-tabs-top {
+  top: 44px;
+  margin-top: .87rem;
+}
+.isayHistoryPageStyle .tab-item-active {
+  border-bottom: 3px solid #ffa358;
+}
+.isayHistoryPageStyle .tab-item-active .tab-title {
+  color: #333;
+}
+.isayHistoryPageStyle .tab-item .icon {
+  height: 0;
+}
+.isayHistoryPageStyle .tab-title {
+  font-size: .3rem;
+  color: #666;
+  line-height: .9rem;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #ededed;
+}
+.isayHistoryPageStyle ul {
+  margin-top: .2rem;
+}
+.isayHistoryPageStyle .infoList {
+  background: #fff;
+  padding: .3rem;
+  padding-bottom: .1rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: .1rem;
+}
+.isayHistoryPageStyle .infoList span {
+  color: #999;
+}
+.isayHistoryPageStyle .infoList p {
+  font-size: .28rem;
+  color: #666;
+}
+.isayHistoryPageStyle .infoList .topInfo {
+  margin-bottom: .1rem;
+}
+.isayHistoryPageStyle .infoList .status {
+  text-align: right;
+  display: inline-block;
+  float: right;
+  padding-bottom: .2rem;
+}
+.isayHistoryPageStyle .infoList .number {
+  font-size: .28rem;
+  color: #005db0;
+}
+.isayHistoryPageStyle .infoList .red {
+  color: red;
+}
+.isayHistoryPageStyle .infoList .green {
+  color: green;
+}
+.isayHistoryPageStyle .infoList hr {
+  clear: both;
+  margin: .1rem 0;
+  color: #ebebeb;
+  background-color: #ebebeb;
+}
+.isayHistoryPageStyle .infoList .bottom {
+  clear: both;
+}
+.isayHistoryPageStyle .infoList .submitter {
+  display: inline-block;
+  float: right;
+}
+
+.jiaofeiPageStyle {
+  background: #ededed;
+}
+.jiaofeiPageStyle .listInfo {
+  margin-top: .16rem;
+  background: #fff;
+  padding: 0;
+  padding-left: 4%;
+}
+.jiaofeiPageStyle .listInfo .infoTit {
+  height: .86rem;
+  line-height: .86rem;
+  border-bottom: 1px solid #dadada;
+  font-size: .3rem;
+}
+.jiaofeiPageStyle .listInfo .infoTit .infoName {
+  width: 30%;
+  text-align: center;
+  color: #005bac;
+}
+.jiaofeiPageStyle .listInfo .infoTit .infoNums {
+  width: 40%;
+  color: #333;
+  margin-left: 2%;
+}
+.jiaofeiPageStyle .listInfo .infoTit .onPay {
+  float: right;
+  margin-right: 2%;
+  background: url(/images/payment/rightBtn.png) no-repeat center right;
+  padding-right: 5%;
+  background-size: .2rem;
+  font-size: .26rem;
+  color: #1281dc;
+}
+.jiaofeiPageStyle .listInfo .infoList {
+  margin: .25rem 0;
+}
+.jiaofeiPageStyle .listInfo .infoCont {
+  margin-right: 4%;
+}
+.jiaofeiPageStyle .listInfo .infoCont h3 {
+  height: .6rem;
+  line-height: .6rem;
+  text-align: center;
+  font-size: .3rem;
+  margin-top: .2rem;
+}
+.jiaofeiPageStyle .listInfo .infoCont h3 p {
+  display: inline-block;
+  line-height: .7rem;
+  font-size: .28rem;
+  color: #666;
+  background: url(/images/payment/elec.png) no-repeat left center;
+  padding-left: .35rem;
+  background-size: .25rem;
+}
+.jiaofeiPageStyle .listInfo .infoCont h3 p .BigRed {
+  font-size: .4rem;
+  color: #D42D34;
+}
+.jiaofeiPageStyle .listInfo .infoCont h3 p .smallRed {
+  color: #D42D34;
+  margin-left: .1rem;
+}
+.jiaofeiPageStyle .listInfo .infoCont .promptDiv {
+  text-align: center;
+}
+.jiaofeiPageStyle .listInfo .infoCont .promptDiv .prompt {
+  display: inline-block;
+  font-size: .26rem;
+  padding-left: .4rem;
+  color: #D42D34;
+  background: url(/images/payment/prompt.png) no-repeat left center;
+  background-size: .3rem;
+  height: .5rem;
+  line-height: .55rem;
+}
+.jiaofeiPageStyle .bar-footer {
+  padding: 0;
+}
+.jiaofeiPageStyle .bar-footer .buttons {
+  width: 100%;
+}
+.jiaofeiPageStyle .bar-footer .buttons .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #16A3EB;
+  line-height: .8rem;
+}
+
+.NoticeListStyle {
+  background: #f9f9f9;
+}
+.NoticeListStyle .noticeList .list {
+  margin: 0.2rem;
+}
+.NoticeListStyle .noticeList .list .item {
+  border: 0;
+  margin-bottom: 0.2rem;
+}
+.NoticeListStyle .noticeList .list .item img {
+  width: 0.6rem;
+  height: 0.6rem;
+  float: left;
+  margin-right: .2rem;
+}
+.NoticeListStyle .noticeList .list .item p {
+  white-space: normal;
+}
+.NoticeListStyle .noticeList .list .item .time {
+  font-size: .2rem;
+}
+.NoticeListStyle .noticeList .list .item .content {
+  text-align: left;
+}
+.NoticeListStyle .noticeList .list .item .color {
+  color: #f55c2d;
+}
+.NoticeListStyle .noticeList .list .item .color1 {
+  color: #4981d1;
+}
+
+.LoginPagesStyle {
+  background: -o-linear-gradient(#00327D 20%, #9BCBE7);
+  background: -ms-linear-gradient(#00327D 20%, #9BCBE7);
+  background: linear-gradient(#00327D 20%, #9BCBE7);
+  background: -moz-linear-gradient(top, #00327D, #9BCBE7);
+  background: -webkit-gradient(linear, 0 22%, 0 100%, from(#00327D), to(#9BCBE7));
+}
+.LoginPagesStyle .checkbox.checkbox-input-hidden input {
+  display: block !important;
+  position: absolute;
+}
+.LoginPagesStyle .checkbox input:before {
+  display: table;
+  margin: 25% 25% 25% 25%;
+  width: 50%;
+  height: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0;
+  background: #fff;
+  content: ' ';
+  -webkit-transition: background-color 20ms ease-in-out;
+  transition: background-color 20ms ease-in-out;
+}
+.LoginPageStyle .banner {
+  background: url(/images/login/logo.png) no-repeat center center;
+  background-size: 3.07rem;
+  width: 100%;
+  height: 4.92rem;
+}
+.LoginPageStyle .button {
+  clear: both;
+  background: #1EDE6B;
+  color: #fff;
+  width: 70%;
+  display: block;
+  margin: .3rem auto;
+}
+.LoginPageStyle .link {
+  text-align: right;
+  width: 70%;
+  margin: auto;
+}
+.LoginPageStyle .link a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: .3rem;
+}
+.LoginPageStyle .copyright {
+  text-align: center;
+  font-size: .3rem;
+  margin-top: .6rem;
+  color: #fff;
+}
+.LoginPageStyle .copyright span {
+  color: #0e75d1;
+}
+.LoginPageStyle .list {
+  width: 70%;
+  margin: auto;
+}
+.LoginPageStyle .list .item {
+  border: 0;
+}
+.LoginPageStyle .list .nameInput {
+  background: rgba(255, 255, 255, 0.4) url(/images/login/icon_01.png) no-repeat 0.3rem center;
+  background-size: .55rem;
+  padding: .2rem;
+}
+.LoginPageStyle .list .pwdInput {
+  background: rgba(255, 255, 255, 0.4) url(/images/login/icon_02.png) no-repeat 0.3rem center;
+  background-size: .55rem;
+  padding: .2rem;
+}
+.LoginPageStyle .list .item-input {
+  padding-left: 1.2rem;
+  margin-top: .3rem;
+}
+.LoginPageStyle .list .item-input input {
+  font-size: .5rem;
+  line-height: inherit;
+  color: #fff;
+}
+.LoginPageStyle .list .pwd {
+  margin-bottom: .2rem;
+  height: .6rem;
+  clear: both;
+}
+.LoginPageStyle .list .pwd .remPwd {
+  float: left;
+}
+.LoginPageStyle .list .pwd .remPwd a {
+  color: #fff;
+}
+.LoginPageStyle .list .pwd .remPwd label {
+  display: inline-block;
+  background: none;
+  border-width: 0;
+}
+.LoginPageStyle .list .pwd .remPwd span {
+  font-size: .25rem;
+}
+.LoginPageStyle .list .pwd .remPwd .item-checkbox {
+  padding-left: 30px;
+  color: #fff;
+}
+.LoginPageStyle .list .pwd .remPwd .item-checkbox .checkbox {
+  left: 0;
+  padding: 7px 0;
+}
+.LoginPageStyle .list .pwd .remPwd .checkbox-icon {
+  width: 15px;
+  height: 15px;
+  margin: 7px;
+}
+.LoginPageStyle .list .pwd .remPwd .checkbox-icon:after {
+  top: 26%;
+  left: 11%;
+  width: 12px;
+  height: 5px;
+}
+.LoginPageStyle .list .pwd .forget {
+  float: right;
+  padding-top: 16px;
+}
+.LoginPageStyle .list .pwd .forget a {
+  color: #fff;
+  font-size: .24rem;
+}
+.LoginPageStyle .checkbox-icon:before {
+  border-radius: 0 !important;
+  border-color: #fff !important;
+}
+.LoginPageStyle .checkbox input:checked:before,
+.LoginPageStyle .checkbox input:checked + .checkbox-icon:before {
+  background: #fff !important;
+  border-color: #fff !important;
+}
+.LoginPageStyle .checkbox-icon:after {
+  -webkit-transition: opacity 0.05s ease-in-out;
+  transition: opacity 0.05s ease-in-out;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 33%;
+  left: 25%;
+  display: table;
+  width: 14px;
+  height: 6px;
+  border: 2px solid #387ef5;
+  border-top: 0;
+  border-right: 0;
+  content: ' ';
+  opacity: 0;
+}
+.slide-in-right {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.slide-in-right.ng-enter,
+.slide-in-right > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+  transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+}
+.slide-in-right.ng-enter-active,
+.slide-in-right > .ng-enter-active {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.slide-in-right.ng-leave,
+.slide-in-right > .ng-leave {
+  -webkit-transition: all ease-in-out 11ms;
+  transition: all ease-in-out 11ms;
+}
+.slide-in-left {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+.slide-in-left.ng-enter,
+.slide-in-left > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+  transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+}
+.slide-in-left.ng-enter-active,
+.slide-in-left > .ng-enter-active {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.slide-in-left.ng-leave,
+.slide-in-left > .ng-leave {
+  -webkit-transition: all ease-in-out 11ms;
+  transition: all ease-in-out 11ms;
+}
+.slide-in-first {
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+.slide-in-first.ng-enter,
+.slide-in-first > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+  transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+}
+.slide-in-first.ng-enter-active,
+.slide-in-first > .ng-enter-active {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.slide-in-first.ng-leave,
+.slide-in-first > .ng-leave {
+  -webkit-transition: all ease-in-out 11ms;
+  transition: all ease-in-out 11ms;
+}
+
+.LoginVisitorPageStyle {
+  background: url(/images/login/bg.png) repeat-x;
+  background-size: 100% 100%;
+}
+.LoginVisitorPageStyle .banner {
+  background: url(/images/login/logo.png) no-repeat center center;
+  background-size: 3.07rem;
+  width: 100%;
+  height: 4.92rem;
+}
+.LoginVisitorPageStyle .button {
+  clear: both;
+  background: #1EDE6B;
+  color: #fff;
+  width: 70%;
+  display: block;
+  margin: .6rem auto;
+}
+.LoginVisitorPageStyle .link {
+  text-align: right;
+  width: 70%;
+  margin: auto;
+}
+.LoginVisitorPageStyle .link a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: .3rem;
+}
+.LoginVisitorPageStyle .copyright {
+  text-align: center;
+  font-size: .3rem;
+  margin-top: .6rem;
+  color: #fff;
+}
+.LoginVisitorPageStyle .copyright span {
+  color: #0e75d1;
+}
+.LoginVisitorPageStyle .list {
+  width: 70%;
+  margin: auto;
+}
+.LoginVisitorPageStyle .list .item {
+  border: 0;
+}
+.LoginVisitorPageStyle .list .phoneInput {
+  background: rgba(255, 255, 255, 0.4) url(/images/login/icon_03.png) no-repeat 0.3rem center;
+  background-size: .5rem;
+  padding: .2rem .2rem .2rem 1.2rem;
+}
+.LoginVisitorPageStyle .list .phoneInput input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+.LoginVisitorPageStyle .list .pwdInput {
+  background: rgba(255, 255, 255, 0.4);
+  padding: .15rem .2rem;
+}
+.LoginVisitorPageStyle .list .pwdInput .button {
+  margin: 0;
+  background: none;
+  border: 1px solid #fff;
+  font-size: .28rem;
+  line-height: .7rem;
+  padding: 0 .1rem;
+  min-height: .7rem;
+}
+.LoginVisitorPageStyle .list .item-input {
+  margin-top: .3rem;
+}
+.LoginVisitorPageStyle .list .item-input input {
+  font-size: .3rem;
+  line-height: inherit;
+  color: #fff;
+}
+.LoginVisitorPageStyle .list .item-input input :-moz-placeholder {
+  color: #f00;
+}
+.LoginVisitorPageStyle .list .item-input input ::-moz-placeholder {
+  color: #f00;
+}
+.LoginVisitorPageStyle .list .item-input input :-ms-input-placeholder {
+  color: #f00;
+}
+.LoginVisitorPageStyle .list .pwd {
+  margin-bottom: .2rem;
+  height: .6rem;
+  clear: both;
+}
+.LoginVisitorPageStyle .list .pwd .remPwd {
+  float: left;
+}
+.LoginVisitorPageStyle .list .pwd .remPwd a {
+  color: #fff;
+}
+.LoginVisitorPageStyle .list .pwd .remPwd label {
+  display: inline-block;
+  background: none;
+  border-width: 0;
+}
+.LoginVisitorPageStyle .list .pwd .remPwd span {
+  font-size: .25rem;
+}
+.LoginVisitorPageStyle .list .pwd .remPwd .item-checkbox {
+  padding-left: 30px;
+  color: #fff;
+}
+.LoginVisitorPageStyle .list .pwd .remPwd .item-checkbox .checkbox {
+  left: 0;
+  padding: 7px 0;
+}
+.LoginVisitorPageStyle .list .pwd .remPwd .checkbox-icon {
+  width: 15px;
+  height: 15px;
+  margin: 7px;
+}
+.LoginVisitorPageStyle .list .pwd .remPwd .checkbox-icon:after {
+  top: 26%;
+  left: 11%;
+  width: 12px;
+  height: 5px;
+}
+.LoginVisitorPageStyle .list .pwd .forget {
+  float: right;
+  padding-top: 16px;
+}
+.LoginVisitorPageStyle .list .pwd .forget a {
+  color: #fff;
+  font-size: .24rem;
+}
+.LoginVisitorPageStyle .checkbox-icon:before {
+  border-radius: 0;
+}
+.LoginVisitorPageStyle .checkbox input:checked:before,
+.LoginVisitorPageStyle .checkbox input:checked + .checkbox-icon:before {
+  background: #fff;
+  border-color: #fff;
+}
+.LoginVisitorPageStyle .checkbox-icon:after {
+  -webkit-transition: opacity 0.05s ease-in-out;
+  transition: opacity 0.05s ease-in-out;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 33%;
+  left: 25%;
+  display: table;
+  width: 14px;
+  height: 6px;
+  border: 2px solid #387ef5;
+  border-top: 0;
+  border-right: 0;
+  content: ' ';
+  opacity: 0;
+}
+
+.MinePageStyle {
+  background: #f9f9f9;
+}
+.MinePageStyle .banner {
+  background: url(/images/mine/bg.jpg) no-repeat center top;
+  padding: .2rem;
+  background-size: 100% 4.4rem;
+  height: 4.4rem;
+}
+.MinePageStyle .banner .quit {
+  float: right;
+  width: .74rem;
+  height: .47rem;
+}
+.MinePageStyle .banner .head {
+  width: 1.32rem;
+  height: 1.32rem;
+  margin: auto;
+  margin-top: .6rem;
+}
+.MinePageStyle .banner .head img {
+  border: 5px solid #cdc8d8;
+  border-radius: .8rem;
+}
+.MinePageStyle .banner .info {
+  text-align: center;
+  color: #fff;
+  font-size: .36rem;
+  margin-top: .3rem;
+  padding-left: .7rem;
+}
+.MinePageStyle .banner .info .identity {
+  font-size: .18rem;
+  border: 1px solid #fff;
+  border-radius: .1rem;
+  padding: 0 .1rem;
+  margin-left: .1rem;
+  display: inline-block;
+  height: 0.3rem;
+  line-height: .3rem;
+  position: relative;
+  top: -0.03rem;
+}
+.MinePageStyle .banner .address {
+  text-align: center;
+  color: #fff;
+  font-size: .26rem;
+  margin-top: .2rem;
+}
+.MinePageStyle .banner .edit {
+  float: right;
+  width: .34rem;
+}
+.MinePageStyle .menuList {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #e9ebed;
+  margin-bottom: .2rem;
+}
+.MinePageStyle .menuList .item {
+  padding: 0 3% 0 .8rem;
+  border-color: #e9ebed;
+  height: .86rem;
+  line-height: .86rem;
+  font-size: .3rem;
+}
+.MinePageStyle .menuList .ion-hose {
+  background: url(/images/mine/icon_01.png) no-repeat center center;
+}
+.MinePageStyle .menuList .ion-warrant {
+  background: url(/images/mine/icon_02.png) no-repeat center center;
+}
+.MinePageStyle .menuList .ion-posts {
+  background: url(/images/mine/icon_03.png) no-repeat center center;
+}
+.MinePageStyle .menuList .ion-accounts {
+  background: url(/images/mine/icon_04.png) no-repeat center center;
+}
+.MinePageStyle .menuList .ion-collect {
+  background: url(/images/mine/icon_05.png) no-repeat center center;
+}
+.MinePageStyle .menuList .ion-version {
+  background: url(/images/mine/icon_06.png) no-repeat center center;
+}
+.MinePageStyle .menuList .icon {
+  background-size: .45rem;
+  width: .46rem;
+}
+.MinePageStyle .menuList .version {
+  font-size: .3rem;
+  float: right;
+  color: #383838;
+}
+.MinePageStyle .menuList .link {
+  float: right;
+  width: .2rem;
+  height: .26rem;
+}
+
+.MoreMenuPageStyle {
+  background: #ededed;
+}
+.MoreMenuPageStyle .moreMenu {
+  padding: 0;
+}
+.MoreMenuPageStyle .moreMenu div {
+  text-align: center;
+  background: #fff;
+  height: 2.5rem;
+  padding-top: .4rem;
+  border-right: 1px solid #ededed;
+}
+.MoreMenuPageStyle .moreMenu div img {
+  width: 1.02rem;
+}
+.MoreMenuPageStyle .moreMenu div a {
+  color: #333;
+}
+
+.NewsPageStyle .card {
+  box-shadow: none;
+  margin: 0;
+}
+.NewsPageStyle .item-thumbnail-left {
+  /*		.remindDiv{
+			position: absolute;
+		}
+		.remind{	
+		    color: #fff;
+		    position: relative;
+		    font-size: .24rem;
+		    left: -0.4rem;
+		    top: -0.3rem;
+		    line-height: .33rem;
+		    height: .33rem;
+		}*/
+}
+.NewsPageStyle .item-thumbnail-left .item-content {
+  padding: .3rem .3rem .3rem 1.7rem;
+}
+.NewsPageStyle .item-thumbnail-left .item-content img {
+  border-radius: 0;
+  max-width: 1.11rem;
+  margin-top: .15rem;
+  margin-left: .15rem;
+  max-height: 1.11rem;
+}
+.NewsPageStyle .item-thumbnail-left .item-content p {
+  white-space: normal;
+}
+.NewsPageStyle .item-thumbnail-left .date {
+  text-align: right;
+  position: relative;
+  top: .3rem;
+}
+
+.NoticeDetailStyle .noticeDetail {
+  padding: 0.2rem;
+}
+.NoticeDetailStyle .noticeDetail .title {
+  text-align: center;
+  font-size: 0.3rem;
+  margin: 0;
+}
+.NoticeDetailStyle .noticeDetail .time {
+  font-size: 0.2rem;
+  text-align: center;
+  margin-bottom: .1rem;
+}
+.NoticeDetailStyle .noticeDetail .content {
+  font-size: 0.27rem;
+}
+.NoticeDetailStyle .noticeDetail hr {
+  margin-top: 0.2rem;
+}
+
+.payTypePageStyle {
+  background: #ededed;
+}
+.payTypePageStyle .item-button-right {
+  margin-top: .2rem;
+  background: #fff;
+  border-top: 2px solid #005bac;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+  padding: 0 4%;
+}
+.payTypePageStyle .item-button-right .button {
+  height: 1rem;
+  line-height: 1rem;
+  background: none;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  font-family: .3rem;
+}
+.payTypePageStyle .payTypeTit {
+  height: .8rem;
+  line-height: .8rem;
+  font-size: .3rem;
+  color: #005bac;
+  padding: 0 4%;
+}
+.payTypePageStyle .list .item-content {
+  padding: 0 0 0 4%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+  background: url(/images/payment/type.png) no-repeat 96% center;
+  background-size: .4rem;
+}
+.payTypePageStyle .list .kuaiqian,
+.payTypePageStyle .list .zhifubao,
+.payTypePageStyle .list .weixin,
+.payTypePageStyle .list .yinhangka {
+  display: block;
+}
+.payTypePageStyle .list .kuaiqian {
+  background: url(/images/payment/kuaiqian.png) no-repeat left center;
+  background-size: .8rem;
+  padding-left: 14%;
+}
+.payTypePageStyle .list .zhifubao {
+  background: url(/images/payment/zhifubao.png) no-repeat left center;
+  background-size: .6rem;
+  padding-left: 14%;
+}
+.payTypePageStyle .list .weixin {
+  background: url(/images/payment/weixin.png) no-repeat left center;
+  background-size: .63rem;
+  padding-left: 14%;
+}
+.payTypePageStyle .list .yinhangka {
+  background: url(/images/payment/yinhangka.png) no-repeat left center;
+  background-size: .63rem;
+  padding-left: 14%;
+}
+.payTypePageStyle .list .ion-checkmark {
+  padding: 0;
+  width: 10%;
+}
+.payTypePageStyle .list .ion-checkmark:before {
+  background: url(/images/payment/type1.png) no-repeat center center;
+  background-size: .4rem;
+  font-family: '';
+  height: 100%;
+  line-height: 1.4rem;
+  width: 68%;
+}
+.payTypePageStyle .bar-footer {
+  padding: 0;
+}
+.payTypePageStyle .bar-footer .buttons {
+  width: 100%;
+}
+.payTypePageStyle .bar-footer .buttons .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #16A3EB;
+}
+
+.PeripheryPageStyle .slider .slider-pager {
+  bottom: .2rem;
+}
+.PeripheryPageStyle .slider .slider-pager .slider-pager-page {
+  color: #fff;
+}
+.PeripheryPageStyle .menuNav {
+  border-bottom: 1px solid #bfbfbf;
+}
+.PeripheryPageStyle .menuNav .col {
+  border-left: 1px solid #999;
+  text-align: center;
+}
+.PeripheryPageStyle .menuNav .col:first-child {
+  border-left: 0;
+}
+.PeripheryPageStyle .menuNav .sort {
+  background: url(/images/periphery/select_gray.png) no-repeat right;
+  background-size: .2rem;
+  padding: .3rem;
+  font-size: .28rem;
+  color: #666;
+}
+.PeripheryPageStyle .menuNav .active {
+  background: url(/images/periphery/select.png) no-repeat right;
+  background-size: .2rem;
+  padding: .3rem;
+  color: #265291;
+}
+.PeripheryPageStyle .choiceShow {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  z-index: 1001;
+}
+.PeripheryPageStyle .choiceShow div {
+  display: none;
+}
+.PeripheryPageStyle .choiceShow .sortList li {
+  border-bottom: 1px solid #ddd;
+  padding: 0 .7rem;
+  line-height: .7rem;
+  color: #666;
+}
+.PeripheryPageStyle .choiceShow .sortList .revoke {
+  display: block;
+  background: url(/images/periphery/select_icon.png);
+  background-size: .5rem;
+  text-align: center;
+  width: .36rem;
+  height: .2rem;
+  margin: .1rem auto;
+}
+.PeripheryPageStyle .choiceShow .sortList {
+  display: block;
+}
+.PeripheryPageStyle .choiceShow .hideClass {
+  display: none;
+}
+.PeripheryPageStyle .shadow {
+  position: absolute;
+  z-index: 1000;
+  background: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 10rem;
+}
+.PeripheryPageStyle .businessList {
+  min-height: 3rem;
+  padding: .25rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.PeripheryPageStyle .businessList .line {
+  border-bottom: 1px dotted #d4d4d5;
+  clear: both;
+  margin-top: .3rem;
+}
+.PeripheryPageStyle .businessList h2 {
+  color: #333;
+  font-size: .3rem;
+  margin-top: .1rem;
+}
+.PeripheryPageStyle .businessList h2 span {
+  text-align: right;
+  display: inline-block;
+  float: right;
+}
+.PeripheryPageStyle .businessList h2 span img {
+  width: .34rem;
+}
+.PeripheryPageStyle .businessList .phone {
+  color: #22327d;
+}
+.PeripheryPageStyle .businessList .phone img {
+  width: .35rem;
+  position: relative;
+  top: .05rem;
+}
+.PeripheryPageStyle .businessList .address {
+  white-space: normal;
+  color: #999;
+  margin-top: .2rem;
+}
+.PeripheryPageStyle .businessList .img {
+  max-width: 2.79rem;
+  max-height: 1.65rem;
+  border: 1px solid #c1c1c1;
+  float: left;
+  margin-right: .2rem;
+}
+.PeripheryPageStyle .businessList .assess {
+  height: .66rem;
+  padding-left: 0;
+}
+.PeripheryPageStyle .businessList .assess .chaping img {
+  width: .37rem;
+}
+.PeripheryPageStyle .businessList .assess .flower img {
+  width: .33rem;
+}
+.PeripheryPageStyle .businessList .assess .first {
+  border-right: 1px solid #999;
+  padding-left: 0;
+}
+.PeripheryPageStyle .businessList .assess .first .flower {
+  position: relative;
+  top: -0.1rem;
+}
+.PeripheryPageStyle .businessList .assess .first .word {
+  position: relative;
+  top: -0.2rem;
+}
+.PeripheryPageStyle .businessList .assess .first .nums {
+  position: relative;
+  top: -0.2rem;
+}
+.PeripheryPageStyle .businessList .assess .second {
+  padding-left: .3rem;
+}
+.PeripheryPageStyle .businessList .assess .word {
+  font-size: .26rem;
+  color: #666;
+  position: relative;
+  top: -0.15rem;
+}
+.PeripheryPageStyle .businessList .assess .nums {
+  font-size: .2rem;
+  position: relative;
+  top: -0.18rem;
+}
+
+.photoCommitPageStyle .selectType {
+  background: #ededed;
+  height: .9rem;
+  line-height: .9rem;
+  font-size: .3rem;
+  color: #666;
+  padding: 0 3%;
+}
+.photoCommitPageStyle .selectType .item-select {
+  width: 75%;
+  float: right;
+  height: 100%;
+  border: 0;
+  background: none;
+}
+.photoCommitPageStyle .selectType .item-select select {
+  direction: ltr;
+  background: none;
+  font-size: .3rem;
+  max-width: 100%;
+  width: 100%;
+  color: #005bac;
+}
+.photoCommitPageStyle .titleInput {
+  padding: 0 3%;
+}
+.photoCommitPageStyle .titleInput input {
+  font-size: .3rem;
+  height: .8rem;
+  line-height: .8rem;
+}
+.photoCommitPageStyle .item-textarea {
+  padding: 0;
+  background: #ededed;
+}
+.photoCommitPageStyle .item-textarea .textarea {
+  height: 2.2rem;
+  padding: .2rem;
+  width: 100%;
+  resize: none;
+  margin-bottom: .2rem;
+  border-bottom: 1px solid #ddd;
+}
+.photoCommitPageStyle .imgBox {
+  background: #ededed;
+  overflow: hidden;
+  padding-bottom: .2rem;
+  border-bottom: 1px solid #ddd;
+}
+.photoCommitPageStyle .imgBox li {
+  height: 1.21rem;
+  width: 1.21rem;
+  float: left;
+  margin: .2rem 0 0 .2rem;
+}
+.photoCommitPageStyle .imgBox li .addImgBtn {
+  background: url('/images/photograph/addImgBtn.png') no-repeat center center;
+  background-size: 1.2rem;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+.photoCommitPageStyle .imgBox li .cameraBtn {
+  background: url('/images/photograph/cameraBtn.png') no-repeat center center;
+  background-size: 1.2rem;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+.photoCommitPageStyle .imgBox li img {
+  height: 100%;
+  width: 100%;
+}
+.photoCommitPageStyle .bar-footer {
+  padding: 0;
+}
+.photoCommitPageStyle .bar-footer .buttons {
+  width: 100%;
+}
+.photoCommitPageStyle .bar-footer .buttons .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #328cc9;
+}
+
+.photographPageStyle {
+  background: #ededed;
+}
+.photographPageStyle .item-thumbnail-left {
+  padding: 0 .2rem .2rem 1.2rem;
+  margin-top: .2rem;
+}
+.photographPageStyle .item-thumbnail-left img:first-child {
+  height: .78rem;
+  width: .78rem;
+  border-radius: .78rem;
+}
+.photographPageStyle .item-thumbnail-left .listTit {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  padding-top: .1rem;
+  overflow: hidden;
+}
+.photographPageStyle .item-thumbnail-left .listTit h2 {
+  font-size: .3rem;
+  color: #328cc9;
+}
+.photographPageStyle .item-thumbnail-left .listTit h3 {
+  font-size: .3rem;
+  color: #328cc9;
+  padding: .1rem 0;
+}
+.photographPageStyle .item-thumbnail-left .listTit .littleIcon {
+  position: absolute;
+  top: .2rem;
+  right: 0;
+}
+.photographPageStyle .item-thumbnail-left .listTit .littleIcon .likeCount {
+  display: inline-block;
+  height: .38rem;
+  line-height: .38rem;
+  background: url("/images/photograph/zan.png") no-repeat left center;
+  background-size: .3rem;
+  font-size: .22rem;
+  padding: 0 .2rem 0 .45rem;
+}
+.photographPageStyle .item-thumbnail-left .listTit .littleIcon .userBest {
+  background: url("/images/photograph/like.png") no-repeat left center;
+  background-size: .3rem;
+}
+.photographPageStyle .item-thumbnail-left .listTit .littleIcon .seeCount {
+  display: inline-block;
+  height: .38rem;
+  line-height: .38rem;
+  background: url("/images/photograph/see.png") no-repeat left center;
+  background-size: .34rem;
+  font-size: .22rem;
+  padding: 0 .2rem 0 .45rem;
+}
+.photographPageStyle .item-thumbnail-left .listTit .littleIcon .talkCount {
+  width: 1rem;
+  height: .38rem;
+  line-height: .38rem;
+  display: inline-block;
+  background: url("/images/photograph/talk.png") no-repeat left center;
+  background-size: .34rem;
+  font-size: .22rem;
+  padding: 0 .2rem 0 .45rem;
+}
+.photographPageStyle .item-thumbnail-left .scroll-view.scroll-x {
+  overflow-x: hidden;
+}
+.photographPageStyle .item-thumbnail-left .dataStyle {
+  font-size: .18rem;
+  color: #999;
+  margin: 0;
+}
+.photographPageStyle .item-thumbnail-left .dataStyle span {
+  text-align: right;
+  display: inline-block;
+  float: right;
+}
+.photographPageStyle .item-thumbnail-left .title {
+  padding: .15rem 0 0 0;
+  color: #333;
+  font-size: .28rem;
+  margin: 0;
+}
+.photographPageStyle .item-thumbnail-left .desc {
+  padding: 0;
+  color: #999;
+  font-size: .28rem;
+  margin: 0;
+  white-space: normal;
+  padding-top: .1rem;
+}
+.photographPageStyle .item-thumbnail-left .picList {
+  /*border-bottom: 1px solid #ddd;*/
+  clear: both;
+  height: 1.1rem;
+}
+.photographPageStyle .item-thumbnail-left .picList li {
+  display: inline-block;
+  height: .8rem;
+  width: .8rem;
+  margin: .1rem .1rem 0 0;
+}
+.photographPageStyle .item-thumbnail-left .picList li img {
+  border-radius: 0;
+}
+.photographPageStyle .item-thumbnail-left .operaIcon {
+  clear: both;
+  margin-top: .1rem;
+  text-align: right;
+}
+.photographPageStyle .item-thumbnail-left .operaIcon .seeCount {
+  height: .6rem;
+  line-height: .6rem;
+  background: url("/images/photograph/zan.png") no-repeat left center;
+  background-size: .32rem;
+  font-size: .24rem;
+  padding: 0 .1rem 0 .4rem;
+  display: inline-block;
+}
+.photographPageStyle .item-thumbnail-left .operaIcon .userBest {
+  background: url("/images/photograph/like.png") no-repeat left center;
+  background-size: .34rem;
+}
+.photographPageStyle .item-thumbnail-left .operaIcon .talkCount {
+  height: .6rem;
+  line-height: .6rem;
+  background: url("/images/photograph/talk.png") no-repeat left 9px;
+  background-size: .36rem;
+  font-size: .24rem;
+  padding: 0 .2rem 0 .43rem;
+  margin-left: .3rem;
+  display: inline-block;
+}
+.photographPageStyle .talkList h4 {
+  font-size: .32rem;
+  color: #666;
+  padding: 0 3%;
+}
+.photographPageStyle .talkList .desc {
+  font-size: .24rem;
+}
+.photographPageStyle .talkList .reply {
+  color: #328cc9;
+}
+.photographPageStyle .talkList .item-thumbnail-left {
+  padding: 0 .2rem .2rem 1.3rem;
+  background: none;
+  border: none;
+}
+.photographPageStyle .talkList .item-thumbnail-left .listTit {
+  padding-top: 0;
+  padding-bottom: .1rem;
+  font-size: .3rem;
+  overflow: hidden;
+}
+.photographPageStyle .talkList .item-thumbnail-left .listTit .floorNums {
+  color: #999;
+  font-size: .2rem;
+  float: right;
+}
+.photographPageStyle .talkList .item-thumbnail-left .talkDetail {
+  background: #fff;
+  padding: .1rem .2rem 0 .2rem;
+  border-radius: 6px;
+  border: 1px solid #dadada;
+  position: relative;
+}
+.photographPageStyle .talkList .item-thumbnail-left .talkDetail .saySign {
+  position: absolute;
+  height: .3rem;
+  width: .19rem;
+  top: .3rem;
+  left: -0.28rem;
+  background: url('/images/photograph/say.png') no-repeat center center;
+  background-size: .2rem;
+  margin-left: .1rem;
+}
+.photographPageStyle .talkList .item-thumbnail-left .talkDetail .replyTa {
+  font-size: .24rem;
+  color: #005bac;
+}
+.photographPageStyle .talkList .item-thumbnail-left .dataStyle {
+  margin-top: .2rem;
+}
+.photographPageStyle .bar-footer {
+  height: 1rem;
+  line-height: 1rem;
+  padding: 8px;
+}
+.photographPageStyle .bar-footer .myForm {
+  width: 100%;
+  height: 100%;
+}
+.photographPageStyle .bar-footer .myForm input {
+  width: 75%;
+  float: left;
+  height: .7rem;
+  border-radius: 5px;
+  background: #ededed;
+  padding: 0 2%;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  font-size: .3rem;
+}
+.photographPageStyle .bar-footer .myForm .submitBtn {
+  width: 15%;
+  float: right;
+  text-align: center;
+  line-height: .7rem;
+  color: #555;
+  font-size: .3rem;
+}
+
+.RegisterPageStyle {
+  background: #f9f9f9;
+}
+.RegisterPageStyle .regForm {
+  width: 80%;
+  margin: auto;
+}
+.RegisterPageStyle .regForm .item {
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.RegisterPageStyle .regForm .button-positive {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0;
+  display: block;
+  background: #265291;
+  font-size: .3rem;
+}
+.RegisterPageStyle .regForm .protocol {
+  height: 1.3rem;
+}
+.RegisterPageStyle .regForm .protocol label {
+  display: inline-block;
+  background: none;
+  border-width: 0;
+}
+.RegisterPageStyle .regForm .protocol span {
+  font-size: .25rem;
+}
+.RegisterPageStyle .regForm .protocol .item-checkbox {
+  padding-left: 45px;
+}
+.RegisterPageStyle .regForm .protocol .checkbox-icon {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+}
+.RegisterPageStyle .regForm .protocol .checkbox-icon:after {
+  top: 26%;
+  left: 20%;
+  width: 12px;
+  height: 5px;
+}
+.RegisterPageStyle .regForm .prompt img {
+  width: 6%;
+}
+.RegisterPageStyle .regForm .prompt span {
+  font-size: .26rem;
+  color: #3a3a3a;
+  position: relative;
+  top: -0.05rem;
+}
+.RegisterPageStyle .regForm .prompt p {
+  font-size: .35rem;
+  color: #3a3a3a;
+  /* word-spacing: 8px; */
+  letter-spacing: 3px;
+}
+.RegisterPageStyle .regForm .prompt p input {
+  letter-spacing: .1rem;
+  text-align: center;
+  width: 6rem;
+  height: .7rem;
+  font-size: .35rem;
+  border: 1px solid #232121;
+  display: inline-block;
+  margin-right: .08rem;
+  padding: 0 0 .05rem 0;
+}
+.RegisterPageStyle .regForm .idInput {
+  background: none;
+}
+.RegisterPageStyle .regForm .nameInput {
+  background: url(/images/reg/icon_01.png) no-repeat 0.15rem;
+  background-size: .55rem;
+  padding: .2rem;
+}
+.RegisterPageStyle .regForm .phoneInput {
+  background: url(/images/reg/icon_04.png) no-repeat 0.15rem;
+  background-size: .55rem;
+  padding: .2rem;
+}
+.RegisterPageStyle .regForm .codeInput {
+  background: none;
+}
+.RegisterPageStyle .regForm .codeInput .button {
+  background: none;
+  font-size: .3rem;
+  min-height: 0;
+  padding: 0 1rem;
+}
+.RegisterPageStyle .regForm .pwdInput {
+  background: url(/images/reg/icon_05.png) no-repeat 0.15rem;
+  background-size: .55rem;
+  padding: .2rem;
+}
+.RegisterPageStyle .regForm .pwdComiInput {
+  background: url(/images/reg/icon_06.png) no-repeat 0.15rem;
+  background-size: .55rem;
+  padding: .2rem;
+}
+.RegisterPageStyle .regForm .item-input {
+  padding-left: .8rem;
+  border-bottom: 1px solid #ddd;
+}
+.RegisterPageStyle .regForm .item-input input {
+  font-size: .3rem;
+  line-height: inherit;
+  color: #3a3a3a;
+}
+.RegisterPageStyle .regForm .group label {
+  width: 33.3%;
+  float: left;
+}
+.RegisterPageStyle .regForm .group label select {
+  left: 0;
+  font-size: .3rem;
+  color: #3a3a3a;
+}
+.RegisterPageStyle .regForm .item-select {
+  border: 1px solid #ddd;
+  margin: .2rem 0;
+  height: .87rem;
+  border-radius: .1rem;
+}
+.RegisterPageStyle .regForm .item-select select {
+  max-width: 100%;
+  left: 0;
+  font-size: .3rem;
+  color: #3a3a3a;
+  padding-right: 0;
+  direction: ltr;
+}
+
+.RentHouseClass {
+  background-color: #f4f4f4;
+}
+.RentHouseClass .sectionTitle {
+  background-color: #f4f4f4;
+  height: .9rem;
+}
+.RentHouseClass .sectionTitle h2 {
+  font-size: .3rem;
+  color: #1e3f80;
+  padding-left: .3rem;
+  padding-top: .3rem;
+}
+.RentHouseClass .chooseAddressDiv .proviceDiv {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  height: 1rem;
+}
+.RentHouseClass .chooseAddressDiv .proviceDiv h2 {
+  font-size: .3rem;
+  color: #000000;
+  margin-top: .3rem;
+  margin-left: .3rem;
+}
+.RentHouseClass .expectTypeDiv {
+  border-bottom: 1px solid #ddd;
+  height: 1rem;
+}
+.RentHouseClass .expectTypeDiv .input-label {
+  font-size: .3rem;
+}
+.RentHouseClass .expectTypeDiv .expectTypeSelect {
+  font-size: .3rem;
+}
+.RentHouseClass .rentMoneyRangeDiv {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  height: 1rem;
+}
+.RentHouseClass .rentMoneyRangeDiv .rentTitle {
+  margin-left: .3rem;
+  float: left;
+  padding-top: .3rem;
+  font-size: .3rem;
+}
+.RentHouseClass .rentMoneyRangeDiv .minInput {
+  width: 30%;
+  float: left;
+  padding-top: .32rem;
+  height: 100%;
+}
+.RentHouseClass .rentMoneyRangeDiv .minInput input {
+  margin-top: -0.19rem;
+  width: 82%;
+  text-align: center;
+}
+.RentHouseClass .rentMoneyRangeDiv .minInput span {
+  float: right;
+  font-size: .3rem;
+  margin-top: -0.59rem;
+  color: #000000;
+  margin-left: .1rem;
+}
+.RentHouseClass .rentMoneyRangeDiv .maxInput {
+  float: left;
+  width: 38%;
+  height: 100%;
+}
+.RentHouseClass .rentMoneyRangeDiv .maxInput input {
+  margin-top: .12rem;
+  width: 82%;
+  margin-left: .1rem;
+  text-align: center;
+}
+.RentHouseClass .rentMoneyRangeDiv .maxInput span {
+  float: right;
+  margin-top: -0.59rem;
+  font-size: .3rem;
+  color: #000000;
+}
+.RentHouseClass .listDeom {
+  background-color: #ffffff;
+  height: 3.0rem;
+  padding: 0;
+}
+.RentHouseClass .listDeom .item-input span {
+  font-size: .3rem;
+}
+.RentHouseClass .listDeom .item-input input {
+  text-align: left;
+}
+.RentHouseClass .listDeom .item-button-right {
+  padding: 0 0 0 5%;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  font-size: .3rem;
+}
+.RentHouseClass .listDeom .item-button-right .button {
+  height: 1rem;
+  line-height: 1rem;
+  top: 0;
+  background: none;
+  font-size: .3rem;
+  text-align: right;
+  right: 2%;
+}
+.RentHouseClass .listDeom .item-button-right .radioBox {
+  width: 70%;
+  padding-top: .3rem;
+}
+.RentHouseClass .listDeom .item-button-right .radioBox .item-radio {
+  border: none;
+  background: none;
+  font-size: .28rem;
+}
+.RentHouseClass .listDeom .item-button-right .radioBox .item-radio .radio-content {
+  margin-top: 0;
+}
+.RentHouseClass .listDeom .item-button-right .radioBox .item-radio .item-content {
+  padding: .5rem .6rem ;
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat left center;
+  background-size: .5rem;
+}
+.RentHouseClass .listDeom .item-button-right .radioBox .item-radio .radio-icon {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.RentHouseClass .listDeom .item-button-right .radioBox .item-radio .ion-checkmark:before {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat left center;
+  background-size: .5rem;
+  font-family: '';
+  width: 100%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  line-height: 10px;
+  height: 100%;
+}
+.RentHouseClass .textAreaDiv {
+  height: 2rem;
+}
+.RentHouseClass .textAreaDiv textarea {
+  height: 100%;
+  width: 100%;
+  vertical-align: normal;
+}
+.RentHouseClass .item-button-left {
+  padding: 0 0 0 5%;
+  height: 1.1rem;
+  line-height: 1.1rem;
+  background-color: white;
+}
+.RentHouseClass .item-button-left .button {
+  height: 1rem;
+  line-height: 1rem;
+  top: 0;
+  background: none;
+  font-size: .28rem;
+  text-align: right;
+  right: 2%;
+}
+.RentHouseClass .item-button-left .radioBox {
+  width: 100%;
+  padding: 0;
+}
+.RentHouseClass .item-button-left .radioBox .item-radio {
+  border: none;
+  background: none;
+  font-size: .28rem;
+  position: relative;
+  right: 6%;
+}
+.RentHouseClass .item-button-left .radioBox .item-radio .item-content {
+  padding: .5rem .55rem ;
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat right center;
+  background-size: .5rem;
+}
+.RentHouseClass .item-button-left .radioBox .item-radio .radio-icon {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.RentHouseClass .item-button-left .radioBox .item-radio .ion-checkmark:before {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat right center;
+  background-size: .5rem;
+  font-family: '';
+  width: 100%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  line-height: 10px;
+  height: 100%;
+}
+.RentHouseClass .bar-footer {
+  padding: 0;
+}
+.RentHouseClass .bar-footer .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #0d4f9c;
+}
+
+.RentOut {
+  background-color: #f4f4f4;
+}
+.RentOut .item-divider {
+  color: #0d469c;
+  font-size: .3rem;
+}
+.RentOut .addressDivNew .item-button-left {
+  padding: 0 0 0 5%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .28rem;
+}
+.RentOut .addressDivNew .item-button-left .button {
+  height: 1rem;
+  line-height: 1rem;
+  top: 0;
+  background: none;
+  font-size: .28rem;
+  text-align: right;
+  right: 2%;
+}
+.RentOut .addressDivNew .item-button-left .radioBox {
+  padding: 0;
+  width: 100%;
+}
+.RentOut .addressDivNew .item-button-left .radioBox .item-radio {
+  height: .8rem;
+  position: absolute;
+  right: 5%;
+  top: .1rem;
+}
+.RentOut .addressDivNew .item-button-left .radioBox .item-radio .item-content {
+  height: .8rem;
+}
+.RentOut .addressDivNew .item-button-left .radioBox .item-radio {
+  border: none;
+  background: none;
+  font-size: .3rem;
+}
+.RentOut .addressDivNew .item-button-left .radioBox .item-content {
+  padding: .1rem .6rem;
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat left center;
+  background-size: .5rem;
+}
+.RentOut .addressDivNew .item-button-left .radioBox .radio-icon {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.RentOut .addressDivNew .item-button-left .radioBox .ion-checkmark:before {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat left center;
+  background-size: .5rem;
+  font-family: '';
+  width: 100%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  line-height: 10px;
+  height: 100%;
+  content: "";
+}
+.RentOut .houseMessage {
+  border-bottom: 1px solid #ddd;
+  height: 1.8rem;
+  background-color: #fff;
+}
+.RentOut .houseMessage .typeAndArea div {
+  float: left;
+  width: 45%;
+  position: relative;
+  left: 5%;
+  font-size: .28rem;
+  margin-top: .3rem;
+}
+.RentOut .houseMessage .typeAndArea div span {
+  color: #888888;
+}
+.RentOut .houseMessage .typeAndArea div span sup {
+  font-size: .1rem;
+}
+.RentOut .item-radio {
+  font-size: .28rem;
+}
+.RentOut .item-button-left {
+  padding: 0 0 0 5%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .26rem;
+}
+.RentOut .item-button-left span {
+  margin-left: .5rem;
+  font-size: .28rem;
+}
+.RentOut .item-button-left .button {
+  height: 1rem;
+  line-height: 1rem;
+  top: 0;
+  background: none;
+  font-size: .28rem;
+  text-align: right;
+  right: 2%;
+}
+.RentOut .item-button-left .radioBox {
+  width: 100%;
+  padding: 0;
+}
+.RentOut .item-button-left .radioBox .item-radio {
+  border: none;
+  background: none;
+  font-size: .28rem;
+}
+.RentOut .item-button-left .radioBox .item-radio .item-content {
+  padding: .1rem .6rem;
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat right center;
+  background-size: .5rem;
+}
+.RentOut .item-button-left .radioBox .item-radio .radio-icon {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.RentOut .item-button-left .radioBox .item-radio .ion-checkmark:before {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat right center;
+  background-size: .5rem;
+  font-family: '';
+  width: 100%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  line-height: 10px;
+  height: 100%;
+  content: "";
+}
+.RentOut .item-button-right {
+  padding: 0 0 0 5%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .28rem;
+}
+.RentOut .item-button-right .button {
+  height: 1rem;
+  line-height: 1rem;
+  top: 0;
+  background: none;
+  font-size: .28rem;
+  text-align: right;
+  right: 2%;
+}
+.RentOut .item-button-right .radioBox {
+  padding: 0;
+  width: 100%;
+  padding-left: 5%;
+}
+.RentOut .item-button-right .radioBox .item-radio {
+  border: none;
+  background: none;
+  font-size: .3rem;
+  width: 100%;
+  text-align: left;
+}
+.RentOut .item-button-right .radioBox .item-content {
+  padding: .1rem .6rem;
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat left center;
+  background-size: .5rem;
+}
+.RentOut .item-button-right .radioBox .radio-icon {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.RentOut .item-button-right .radioBox .ion-checkmark:before {
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat left center;
+  background-size: .5rem;
+  font-family: '';
+  width: 100%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  line-height: 10px;
+  height: 100%;
+  content: "";
+}
+.RentOut .item-button-right .inputPhone {
+  position: absolute;
+  left: 2.5rem;
+  top: 0;
+  z-index: 999;
+}
+.RentOut .item-button-right .defaultPhoneShow {
+  float: right;
+  margin-right: 50%;
+}
+.RentOut .item-button-right .item-radio input:checked + .radio-content .item-content {
+  background: none;
+}
+.RentOut .houseDevice label {
+  width: 25%;
+  float: left;
+  padding-top: 2%;
+  padding-right: 0%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  font-size: .3rem;
+  text-align: center;
+  border: none;
+  margin: 0;
+}
+.RentOut .houseDevice label .checkbox-icon {
+  width: 100%;
+}
+.RentOut .houseDevice label .checkbox-icon:before {
+  background: none;
+  border: none;
+}
+.RentOut .houseDevice label .checkbox-icon:after {
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: table;
+  width: 100%;
+  height: 3px;
+  -webkit-transition: opacity 0s ease-in-out;
+  transition: opacity 0s ease-in-out;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.RentOut .houseDevice .One {
+  background: url(/images/HouseRentImage/icon-bed.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .40rem .37rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Two {
+  background: url(/images/HouseRentImage/icon-sofa.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .45rem .43rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Three {
+  background: url(/images/HouseRentImage/icon-furniture.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .45rem .43rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Foure {
+  background: url(/images/HouseRentImage/icon-heating.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .45rem .43rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Five {
+  background: url(/images/HouseRentImage/icon-airCondition.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .45rem .43rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Six {
+  background: url(/images/HouseRentImage/icon-dishWashingMachine.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .40rem .37rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Seven {
+  background: url(/images/HouseRentImage/icon-microwaveOven.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .40rem .47rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Eight {
+  background: url(/images/HouseRentImage/icon-washer.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .40rem .37rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Nine {
+  background: url(/images/HouseRentImage/icon-shower.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .45rem .43rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Ten {
+  background: url(/images/HouseRentImage/icon-commonBathingPool.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .45rem .43rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Eleven {
+  background: url(/images/HouseRentImage/icon-teleVision.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .40rem .37rem;
+  background-color: #fff;
+}
+.RentOut .houseDevice .Desc {
+  background: url(/images/HouseRentImage/icon-carport.png) no-repeat left center;
+  background-position: 10% 50%;
+  background-size: .45rem .43rem;
+  background-color: #fff;
+}
+.RentOut .housePricture {
+  background-color: #fff;
+}
+.RentOut .housePricture ul {
+  display: inline-flex;
+}
+.RentOut .housePricture ul li {
+  float: left;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: .2rem;
+  margin-left: .2rem;
+}
+.RentOut .housePricture ul .addImgBtn {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: .2rem;
+  margin-left: .2rem;
+  background: url(/images/addCamer.png) no-repeat;
+  background-size: 1.2rem;
+}
+.RentOut .expectMoneyDiv {
+  background-color: #fff;
+  height: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.RentOut .expectMoneyDiv .moneyDiv {
+  float: left;
+}
+.RentOut .expectMoneyDiv .moneyDiv .inputDiv {
+  float: left;
+  padding-left: .3rem;
+}
+.RentOut .expectMoneyDiv .moneyDiv .inputDiv .moneyTitle {
+  float: left;
+  font-size: .3rem;
+  line-height: 1rem;
+  display: inline-block;
+}
+.RentOut .expectMoneyDiv .moneyDiv .inputDiv input {
+  float: left;
+  width: 2.0rem;
+  font-size: .3rem;
+  line-height: .9rem;
+  height: .9rem;
+}
+.RentOut .expectMoneyDiv .moneyDiv .staticUnitDiv {
+  line-height: 1rem;
+  float: left;
+}
+.RentOut .expectMoneyDiv .moneyDiv .staticUnitDiv .titleUnit {
+  font-size: .3rem;
+}
+.RentOut .expectMoneyDiv .priceDiv {
+  padding-left: .3rem;
+  float: right;
+}
+.RentOut .expectMoneyDiv .priceDiv span {
+  font-size: .3rem;
+  line-height: 1rem;
+}
+.RentOut .expectMoneyDiv .priceDiv .item-checkbox {
+  float: right;
+  border: 0 solid;
+  background: transparent;
+  margin-top: .2rem;
+}
+.RentOut .expectMoneyDiv .priceDiv .checkbox-icon {
+  width: 20px;
+  height: 20px;
+}
+.RentOut .expectMoneyDiv .priceDiv .checkbox-icon:before {
+  background: url(/images/HouseRentImage/icon-unselected.png) no-repeat right center;
+  background-size: 100%;
+  border-style: none;
+}
+.RentOut .expectMoneyDiv .priceDiv .checkbox-icon:after {
+  left: -6%;
+  top: 5%;
+  width: .47rem;
+  height: .47rem;
+  background: url(/images/HouseRentImage/icon-selected.png) no-repeat right center;
+  background-size: 100%;
+  -webkit-transition: opacity 0s ease-in-out;
+  transition: opacity 0s ease-in-out;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.RentOut .bar-footer {
+  padding: 0;
+}
+.RentOut .bar-footer .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .3rem;
+  background: #0d469c;
+}
+
+.RepairDetailStyle .repairContent {
+  /*下面的状态按钮  继续维修 终止维修*/
+}
+.RepairDetailStyle .repairContent .repairInfo .oddNum {
+  margin-top: 0.2rem;
+  padding: 0 0.2rem;
+}
+.RepairDetailStyle .repairContent .repairInfo .oddContent {
+  color: #999999;
+  padding: 0 0.2rem;
+}
+.RepairDetailStyle .repairContent .repairInfo hr.topLine {
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.RepairDetailStyle .repairContent .repairInfo hr.bottomLine {
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.RepairDetailStyle .repairContent .repairInfo .scroll {
+  height: 1.5rem;
+}
+.RepairDetailStyle .repairContent .repairInfo .scroll .imgList {
+  height: 1.5rem;
+  clear: both;
+  display: inline-flex;
+  padding: 0 0.2rem;
+}
+.RepairDetailStyle .repairContent .repairInfo .scroll .imgList li {
+  width: 2rem;
+  height: 1.5rem;
+  display: inline-block;
+  margin-left: 0.1rem;
+}
+.RepairDetailStyle .repairContent .repairProgress {
+  overflow: hidden;
+  /*收起的按钮*/
+  /*报修进展流程图*/
+}
+.RepairDetailStyle .repairContent .repairProgress p.progressStatus {
+  border-bottom: 1px solid #ddd;
+  padding: 0 0.2rem 8px 0.2rem;
+  margin-bottom: 0;
+}
+.RepairDetailStyle .repairContent .repairProgress p.progressStatus span {
+  color: red;
+}
+.RepairDetailStyle .repairContent .repairProgress .detailButton {
+  float: right;
+  border-style: none;
+  background-color: white;
+  background: url(/images/repair/top.png) no-repeat right;
+  padding-right: .5rem;
+  background-size: .35rem;
+}
+.RepairDetailStyle .repairContent .repairProgress .hideProgress {
+  display: none;
+}
+.RepairDetailStyle .repairContent .repairProgress .progress {
+  padding: 0 0.2rem;
+}
+.RepairDetailStyle .repairContent .repairProgress .top {
+  background: url(/images/repair/down.png) no-repeat right;
+  padding-right: .5rem;
+  background-size: .35rem;
+}
+.RepairDetailStyle .repairContent .repairProgress .progressChart {
+  border-left: 1px solid #ddd;
+  min-height: .4rem;
+  position: relative;
+}
+.RepairDetailStyle .repairContent .repairProgress .progressChart span.progressIcon {
+  height: 0.3rem;
+  width: 0.3rem;
+  display: block;
+  border: 3px solid #00ba83;
+  border-radius: .15rem;
+  position: absolute;
+  top: 0.5rem;
+  left: -0.16rem;
+  background-color: white;
+}
+.RepairDetailStyle .repairContent .repairProgress .progressChart .detailProgress {
+  overflow: hidden;
+  padding-top: 0.2rem;
+}
+.RepairDetailStyle .repairContent .repairProgress .progressChart .detailProgress .jidu {
+  width: 30%;
+  float: left;
+  text-align: center;
+  font-size: .24rem;
+}
+.RepairDetailStyle .repairContent .repairProgress .progressChart .detailProgress div.progressContent {
+  width: 65%;
+  float: left;
+}
+.RepairDetailStyle .repairContent .repairProgress .progressChart .detailProgress div.progressContent .noImage {
+  background: url(/images/repair/spot.png) no-repeat left 0.15rem;
+  background-size: .1rem;
+  padding-left: 0.15rem;
+}
+.RepairDetailStyle .repairContent .repairProgress .progressChart .detailProgress div.progressContent img {
+  width: .6rem;
+  padding-bottom: .2rem;
+  position: relative;
+}
+.RepairDetailStyle .repairContent .repairProgress .progressChart .detailProgress div.progressContent .haveImage .descWord {
+  position: relative;
+  top: -0.3rem;
+}
+.RepairDetailStyle .repairContent .repairProgress hr.proBottomLine {
+  margin-bottom: 0;
+  margin: 0 -0.2rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation p.mark {
+  float: left;
+  padding: 0 0.2rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation img.markImage {
+  margin-top: 0.1rem;
+  position: relative;
+  top: 0.2rem;
+  width: .6rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox {
+  height: 1.5rem;
+  line-height: .5rem;
+  margin-left: 1.8rem;
+  position: relative;
+  top: .2rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox .flower {
+  width: 90%;
+  margin: 0;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox .flower span.goodFlower {
+  height: .5rem;
+  width: .4rem;
+  display: inline-block;
+  background: url('/images/repair/konghua.png') no-repeat center center;
+  background-size: .4rem;
+  margin-right: .1rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox .flower span.star {
+  height: .5rem;
+  width: .4rem;
+  display: inline-block;
+  background: url('/images/repair/xiaohonghua.png') no-repeat center center;
+  background-size: .4rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox .flower span.goodText {
+  height: .5rem;
+  position: relative;
+  top: -0.15rem;
+  margin-left: .3rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox .witherFlower {
+  width: 90%;
+  height: .33rem;
+  margin: 0;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox .witherFlower span.badFlower {
+  height: .5rem;
+  width: .4rem;
+  display: inline-block;
+  background: url('/images/repair/negativeComment.png') no-repeat center center;
+  background-size: .4rem;
+  margin-right: .1rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox .witherFlower span.flower {
+  height: .5rem;
+  width: .4rem;
+  display: inline-block;
+  background: url('/images/repair/fullNegativeComment.png') no-repeat center center;
+  background-size: .4rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .flowerBox .witherFlower span.badText {
+  height: .5rem;
+  position: relative;
+  top: -0.15rem;
+  margin-left: .3rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .evaluationArea {
+  clear: both;
+  height: 2.22rem;
+  background-color: #eeeeee;
+  width: 95%;
+  resize: none;
+  padding: .2rem;
+  margin: .2rem;
+}
+.RepairDetailStyle .repairContent .repairEvaluation .submit {
+  width: 30%;
+  height: 0.6rem;
+  border-radius: 0.1rem;
+  margin-left: 35%;
+  border-style: none;
+  background-color: #ff9c00;
+  margin-top: 0.2rem;
+  font-size: 0.25rem;
+  color: white;
+  line-height: .3rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus {
+  padding: 0 0.2rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus p.mark {
+  float: left;
+  margin-top: 3px;
+}
+.RepairDetailStyle .repairContent div.finishStatus .finishDiv {
+  height: 0.65rem;
+  line-height: .5rem;
+  margin-top: .2rem;
+  margin-left: 1.8rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus .finishDiv p.showPraise {
+  width: 80%;
+  margin: 0;
+}
+.RepairDetailStyle .repairContent div.finishStatus .finishDiv p.showPraise span.praise {
+  height: .5rem;
+  width: .4rem;
+  display: inline-block;
+  background: url('/images/repair/konghua.png') no-repeat center center;
+  background-size: .4rem;
+  margin-right: .1rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus .finishDiv p.showPraise span.redFlower {
+  height: .5rem;
+  width: .4rem;
+  display: inline-block;
+  background: url('/images/repair/xiaohonghua.png') no-repeat center center;
+  background-size: .4rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus .finishDiv p.showPraise span.praiseMark {
+  height: .5rem;
+  position: relative;
+  top: -0.1rem;
+  margin-left: .3rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus .finishDiv p.showBad span.bad {
+  height: .5rem;
+  width: .4rem;
+  display: inline-block;
+  background: url('/images/repair/negativeComment.png') no-repeat center center;
+  background-size: .4rem;
+  margin-right: .1rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus .finishDiv p.showBad span.grayFlower {
+  height: .5rem;
+  width: .4rem;
+  display: inline-block;
+  background: url('/images/repair/fullNegativeComment.png') no-repeat center center;
+  background-size: .4rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus .finishDiv p.showBad span.badMark {
+  height: .5rem;
+  position: relative;
+  top: -0.1rem;
+  margin-left: .3rem;
+}
+.RepairDetailStyle .repairContent div.finishStatus .evaluationsArea {
+  clear: both;
+  height: 2.22rem;
+  background-color: #fff;
+  width: 100%;
+  resize: none;
+}
+.RepairDetailStyle .bar-footer {
+  width: 100%;
+  padding: 0 0 0 0;
+  height: .9rem;
+}
+.RepairDetailStyle .bar-footer button {
+  width: 50%;
+  font-size: 0.3rem;
+  float: left;
+  color: white;
+  text-decoration: none;
+  height: 0.95rem;
+  border-style: none;
+}
+.RepairDetailStyle .bar-footer .continueRepairButton {
+  background-color: #ff9c00;
+}
+.RepairDetailStyle .bar-footer .stopRepairButton {
+  background-color: #005bac;
+}
+
+.RepairFormStyle .repairForm .repairTitle {
+  height: 0.8rem;
+  background-color: #f3f3f3;
+  font-size: 0.3rem;
+  padding-left: 0.3rem;
+  padding-top: 0.26rem;
+  color: #717171;
+}
+.RepairFormStyle .repairForm .list {
+  margin: 0;
+}
+.RepairFormStyle .repairForm .list .item-input {
+  height: 2.46rem;
+}
+.RepairFormStyle .repairForm .list .item-input textarea {
+  height: 2rem;
+  resize: none;
+}
+.RepairFormStyle .repairForm .voicePart {
+  height: 3.15rem;
+  background-color: #f3f3f3;
+  padding: 0 0.25rem;
+}
+.RepairFormStyle .repairForm .voicePart .voiceButton {
+  width: 100%;
+  height: 0.65rem;
+  border-radius: 0.1rem;
+  margin: 0.18rem auto 0;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f8f8f8;
+  background: url(/images/repair/repairVoice.png) 2.2rem 50% no-repeat;
+  background-size: 0.3rem;
+  color: #717171;
+}
+.RepairFormStyle .repairForm .voicePart p.description {
+  color: #717171;
+}
+.RepairFormStyle .repairForm .voicePart .pictures img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.RepairFormStyle .repairForm .voicePart p {
+  margin-top: 0.3rem;
+}
+.RepairFormStyle .repairForm .personInformation .list {
+  padding: 0;
+}
+.RepairFormStyle .repairForm .personInformation .list .item-button-right {
+  padding: 0 0 0 4%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+  background: none;
+  background-color: #fff;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+.RepairFormStyle .repairForm .personInformation .list .item-button-right .button {
+  height: 1rem;
+  line-height: 1rem;
+  top: 0;
+  background: none;
+  font-size: .3rem;
+  text-align: right;
+  right: 2%;
+}
+.RepairFormStyle .repairForm .personInformation .list .item-button-right .item-select {
+  width: 80%;
+  float: right;
+  height: 100%;
+  border: none;
+  padding: 0;
+}
+.RepairFormStyle .repairForm .personInformation .list .item-button-right .item-select select {
+  max-width: 100%;
+  padding: 2px 31px 0 0px;
+  font-size: .3rem;
+}
+.RepairFormStyle .repairForm .personInformation p {
+  height: 0.85rem;
+  padding-top: 0.6rem;
+  font-size: 0.27px;
+}
+.RepairFormStyle .repairForm .personInformation span {
+  float: right;
+  color: #aeaeae;
+}
+.RepairFormStyle .repairForm .personInformation .home img {
+  float: right;
+  width: .3rem;
+  height: 0.16rem;
+  margin-top: 0.1rem;
+  margin-left: 0.1rem;
+}
+.RepairFormStyle .repairForm .personInformation hr {
+  margin: 0;
+}
+.RepairFormStyle .repairForm .prompt {
+  padding: 0 0.2rem;
+  font-size: 0.18rem;
+  margin-top: 0.20rem;
+  margin-bottom: 1.4rem;
+}
+.RepairFormStyle .repairForm .prompt .price {
+  margin-left: 0.1rem;
+  text-decoration: underline;
+}
+.RepairFormStyle .repairForm .prompt .warnPicture {
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-right: 0.1rem;
+  vertical-align: text-top;
+}
+.RepairFormStyle .bar-footer {
+  padding: 0;
+}
+.RepairFormStyle .bar-footer .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #328cc9;
+}
+
+.RepairPriceStyle p.content {
+  margin-top: 0.1rem;
+  padding: 0 0.2rem;
+}
+
+.ServiceInfoPageStyle {
+  background: #f9f9f9;
+}
+.ServiceInfoPageStyle .title1 {
+  font-size: .3rem;
+  color: #656565;
+  height: .8rem;
+  line-height: 1rem;
+  padding: 0 .2rem;
+}
+.ServiceInfoPageStyle .title2 {
+  font-size: .3rem;
+  color: #656565;
+  height: .4rem;
+  line-height: .2rem;
+  padding: 0 .2rem;
+}
+.ServiceInfoPageStyle .item-button-right {
+  font-size: .28rem;
+  padding: .3rem;
+}
+.ServiceInfoPageStyle .item-button-right span {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  min-width: 34px;
+  min-height: 34px;
+  font-size: 18px;
+  line-height: .6rem;
+  color: #656565;
+  font-size: .28rem;
+}
+.ServiceInfoPageStyle .item-button-right span img {
+  width: .41rem;
+  height: .45rem;
+  position: relative;
+  top: .05rem;
+  right: .1rem;
+}
+.ServiceInfoPageStyle .item-button-right span a {
+  color: #656565;
+}
+
+.shouquanListPageStyle {
+  background: #ededed;
+}
+.shouquanListPageStyle .list {
+  margin: .2rem;
+}
+.shouquanListPageStyle .list .item-thumbnail-left {
+  border: none;
+  min-height: 1.4rem;
+  background: none;
+}
+.shouquanListPageStyle .list .item-thumbnail-left .item-content {
+  border-bottom: 2px solid #eee;
+  min-height: 1.4rem;
+  padding: 0 4% 0 19%;
+  white-space: normal;
+}
+.shouquanListPageStyle .list .item-thumbnail-left .item-content p {
+  white-space: normal;
+}
+.shouquanListPageStyle .list .item-thumbnail-left .item-content h2 {
+  padding-top: .1rem;
+  height: .7rem;
+  line-height: .7rem;
+}
+.shouquanListPageStyle .list .item-thumbnail-left .item-content h2 .userType {
+  font-size: .24rem;
+  margin-left: .1rem;
+}
+.shouquanListPageStyle .list .item-thumbnail-left .item-content img {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  top: .2rem;
+}
+.addBtns {
+  color: #fff;
+  line-height: 30px;
+  font-size: .28rem;
+  width: 40px;
+  text-align: center;
+}
+
+.wuyefeiPageStyle {
+  background: #ededed;
+}
+.wuyefeiPageStyle .orderCont,
+.wuyefeiPageStyle .orderInfo {
+  background: #fff;
+  margin-bottom: .2rem;
+}
+.wuyefeiPageStyle .selectAddress {
+  padding: 0 3%;
+  height: .8rem;
+  line-height: .8rem;
+  border-top: 1px solid #ddd;
+  font-size: .32rem;
+  color: #005AA8;
+  border-bottom: 1px solid #ddd;
+}
+.wuyefeiPageStyle .selectAddress .item-select {
+  width: 70%;
+  float: right;
+  height: .75rem;
+  border: none;
+  margin-top: .01rem;
+}
+.wuyefeiPageStyle .selectAddress .item-select select {
+  width: 100%;
+  font-size: .32rem;
+}
+.wuyefeiPageStyle .selectAddress .addressName {
+  text-align: right;
+  color: #666;
+  display: inline-block;
+  float: right;
+}
+.wuyefeiPageStyle .orderInfo {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.wuyefeiPageStyle .orderInfo .infoTit {
+  height: .8rem;
+  line-height: .8rem;
+  color: #005AA8;
+  margin-left: 3%;
+  border-bottom: 1px solid #ddd;
+  font-size: .32rem;
+}
+.wuyefeiPageStyle .orderInfo .infoName {
+  display: inline-block;
+  width: 1.4rem;
+}
+.wuyefeiPageStyle .orderInfo .list {
+  padding: .2rem 0;
+}
+.wuyefeiPageStyle .orderInfo .list .item {
+  padding: .06rem 3%;
+  font-size: .3rem;
+  border: none;
+}
+.wuyefeiPageStyle .orderInfo .list .promptCont {
+  color: #D42D34;
+  font-size: .22rem;
+  background: url(/images/payment/prompt.png) no-repeat left 6px;
+  background-size: .25rem;
+  padding-left: .3rem;
+  margin: 0 2%;
+  white-space: normal;
+}
+.wuyefeiPageStyle .orderInfo .list .handleBtn {
+  position: relative;
+  height: .5rem;
+  width: 50%;
+  display: inline-block;
+  top: .13rem;
+}
+.wuyefeiPageStyle .orderInfo .list .handleBtn .minus {
+  height: .4rem;
+  width: .7rem;
+  display: inline-block;
+  background: url(/images/payment/minus.png) no-repeat center bottom;
+  background-size: .4rem;
+  margin-right: .1rem;
+}
+.wuyefeiPageStyle .orderInfo .list .handleBtn .monthsNum {
+  height: .4rem;
+  width: .4rem;
+  line-height: .4rem;
+  margin-right: .1rem;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: -0.1rem;
+}
+.wuyefeiPageStyle .orderInfo .list .handleBtn .add {
+  height: .4rem;
+  width: .7rem;
+  display: inline-block;
+  background: url(/images/payment/add.png) no-repeat center bottom;
+  background-size: .4rem;
+  margin-right: .1rem;
+}
+.wuyefeiPageStyle .item-input {
+  background: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.wuyefeiPageStyle .item-input input {
+  font-size: .3rem;
+}
+.wuyefeiPageStyle .protocol {
+  height: 1.3rem;
+}
+.wuyefeiPageStyle .protocol .item-checkbox {
+  background: none;
+  border: none;
+}
+.wuyefeiPageStyle .protocol label {
+  display: inline-block;
+  background: none;
+  border-width: 0;
+}
+.wuyefeiPageStyle .protocol span,
+.wuyefeiPageStyle .protocol a {
+  font-size: .25rem;
+}
+.wuyefeiPageStyle .protocol .checkbox {
+  left: 0;
+}
+.wuyefeiPageStyle .protocol .item-checkbox {
+  padding-left: 35px;
+}
+.wuyefeiPageStyle .protocol .checkbox-icon {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+}
+.wuyefeiPageStyle .protocol .checkbox-icon:after {
+  top: 26%;
+  left: 20%;
+  width: 12px;
+  height: 5px;
+}
+.wuyefeiPageStyle .bar-footer {
+  padding: 0;
+}
+.wuyefeiPageStyle .bar-footer .buttons {
+  width: 100%;
+}
+.wuyefeiPageStyle .bar-footer .buttons .button {
+  width: 100%;
+  border-radius: 0;
+  font-size: .32rem;
+  background: #16A3EB;
+}
+
+/*# sourceMappingURL=../maps/mr-demo.css.map */

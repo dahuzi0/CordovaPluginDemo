@@ -1,0 +1,66 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/Desktop/CordovaDemo/plugins/cordova-plugin-whitelist"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.maxrocky.plugins.speaknative": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/Desktop/CordovaDemo/my_plugins/xf"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.synconset.imagepicker": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/Desktop/CordovaDemo/my_plugins/cordova-imagePicker-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-actionsheet": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/Desktop/CordovaDemo/my_plugins/cordova-plugin-actionsheet-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-camera": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/Desktop/CordovaDemo/my_plugins/cordova-plugin-camera"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-wechat": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/Desktop/CordovaDemo/my_plugins/cordova-plugin-wechat-develop"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "phonegap-plugin-barcodescanner": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/Desktop/CordovaDemo/my_plugins/phonegap-plugin-barcodescanner-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "maxrocky-plugins-alipay": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/Desktop/CordovaDemo/plugins/maxrocky-plugins-alipay"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

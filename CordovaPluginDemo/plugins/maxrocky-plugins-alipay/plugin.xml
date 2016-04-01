@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	id="maxrocky-plugins-alipay"
+	version="0.0.1">
+	<name>AlipayPlugin</name>
+	<description>AliPay</description>
+	<js-module src="www/alipay.js" name="alipay">
+		<clobbers target="AliPay" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+            <feature name="AliPay">
+                <param name="android-package" value="com.maxrocky.plugins.alipay.AliPay"/>
+            </feature>
+        </config-file>
+
+		<source-file
+			src="src/android/AliPay.java"
+			target-dir="src/com/maxrocky/plugins/alipay" />
+		<source-file
+			src="src/android/HttpUtils.java"
+			target-dir="src/com/maxrocky/plugins/alipay" />
+		<source-file
+			src="src/android/PayBody.java"
+			target-dir="src/com/maxrocky/plugins/alipay" />
+		<source-file
+			src="src/android/PayBodyResponse.java"
+			target-dir="src/com/maxrocky/plugins/alipay" />
+		<source-file
+			src="src/android/PayResult.java"
+			target-dir="src/com/maxrocky/plugins/alipay" />
+
+		<source-file src="src/android/libs/alipaySdk-20160120.jar" target-dir="libs" framework="true"/>
+		<source-file src="src/android/libs/gson-2.3.1.jar" target-dir="libs" framework="true"/>
+		<source-file src="src/android/libs/org.apache.commons.httpclient.jar" target-dir="libs" framework="true"/>
+		<source-file src="src/android/libs/org.apache.commons.logging.jar" target-dir="libs" framework="true"/>
+
+		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+			<activity android:name="com.alipay.sdk.app.H5PayActivity"
+				android:configChanges="orientation|keyboardHidden|navigation"
+				android:exported="false" 
+				android:screenOrientation="behind"
+				android:windowSoftInputMode="adjustResize|stateHidden">
+			</activity>
+		</config-file>
+		
+		<config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+			<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+			<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+			<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config-file>
+	</platform>
+</plugin>

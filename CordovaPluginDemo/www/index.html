@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" mr-rem>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<link rel="stylesheet" charset="UTF-8" type="text/css" href="./css/vendor.css" />
+		<link rel="stylesheet" charset="UTF-8" type="text/css" href="./css/mr-demo.css" />
+		<style>
+			
+			#card{
+				width:98%;
+				
+			}
+			
+			
+			#immg{
+				width:100%;
+			}
+		</style>
+		<script type="text/javascript" charset="UTF-8" src="./js/angular.js"></script>
+		<script src="./js/ng-cordova.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="./js/wanda.js"></script>
+
+	</head>
+
+	<body ng-controller="CordovaDemoController">
+		<script>
+			document.addEventListener("deviceready", function() {
+			        angular.bootstrap(document.getElementsByTagName('html')[0], ['wandaClient.app'])
+			    });
+		</script>
+
+		<ion-nav-view>
+			
+			<ion-content>
+				<div id="card">
+					<img id="immg" ng-src="images/photograph/img2.jpg" src="images/photograph/img2.jpg"/>
+				</div>
+
+				<div class="padding">
+					<button class="button button-block button-positive" ng-click="xunFei()">
+						讯飞语音
+					</button>
+				</div>
+				<div class="padding">
+					<button class="button button-block button-positive" ng-click="takePhone()">
+						相机
+					</button>
+				</div>
+
+				<div class="padding">
+					<button class="button button-block button-positive" ng-click="erWeiMa()">
+						二维码
+					</button>
+				</div>
+
+				<div class="padding">
+					<button class="button button-block button-positive" ng-click="pic()">
+						图库
+					</button>
+				</div>
+				<div class="padding">
+					<button class="button button-block button-positive" ng-click="testShareSheet()">
+						ActionSheet
+					</button>
+				</div>
+				
+				<div class="padding">
+					<button class="button button-block button-positive" ng-click="zhiFu()">
+						支付
+					</button>
+				</div>
+				
+				<div class="padding">
+					<button class="button button-block button-positive" ng-click="weiXinzhiFu()">
+						微信支付
+					</button>
+				</div>
+			</ion-content>
+		</ion-nav-view>
+	</body>
+
+</html>

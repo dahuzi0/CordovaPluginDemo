@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "com.maxrocky.plugins.speaknative": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "cordova-plugin-actionsheet": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "maxrocky-plugins-alipay": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        }
+    },
+    "dependent_plugins": {}
+}

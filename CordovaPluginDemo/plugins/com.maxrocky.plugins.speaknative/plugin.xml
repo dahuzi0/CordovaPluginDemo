@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		id="com.maxrocky.plugins.speaknative"
+		version="0.0.1">
+    <name>SpeakNative</name>
+    <description>Description</description>
+    <license>Apache 2.0 License</license>
+    <engines>
+    <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <js-module name="speaknative" src="www/SpeakNative.js">
+        <clobbers target="SpeakNative"/>
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="SpeakNative">
+                <param name="android-package" value="com.maxrocky.plugins.speaknative.SpeakNative"/>
+            </feature>
+        </config-file>
+		<config-file target="AndroidManifest.xml" parent="/*">
+            <!--连接网络权限，用于执行云端语音能力 -->
+			<uses-permission android:name="android.permission.INTERNET"/>
+			<!--获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+			<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+			<!--读取网络信息状态 -->
+			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+			<!--获取当前wifi状态 -->
+			<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+			<!--允许程序改变网络连接状态 -->
+			<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+			<!--读取手机信息权限 -->
+			<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+			<!--读取联系人权限，上传联系人需要用到此权限 -->
+			<uses-permission android:name="android.permission.READ_CONTACTS"/>
+        </config-file>
+		<!-- src：目标文件路径，target-dir：包名（java文件上边的package——自定义）-->
+        <source-file src="src/android/SpeakNative.java" target-dir="src/com/maxrocky/plugins/speaknative"/>
+        <source-file src="src/android/JsonParser.java" target-dir="src/com/maxrocky/plugins/speaknative" />
+        <source-file src="src/android/Msc.jar" target-dir="libs/" framework="true"/>
+        <source-file src="src/android/armeabi/libmsc.so" target-dir="libs/armeabi-v7a/" />
+        <source-file src="src/android/assets/iflytek/voice_empty.png" target-dir="assets/iflytek/" />
+        <source-file src="src/android/assets/iflytek/recognize.xml" target-dir="assets/iflytek/" />
+        <source-file src="src/android/assets/iflytek/voice_bg.9.png" target-dir="assets/iflytek/" />
+        <source-file src="src/android/assets/iflytek/voice_full.png" target-dir="assets/iflytek/" />
+        <source-file src="src/android/assets/iflytek/waiting.png" target-dir="assets/iflytek/" />
+        <source-file src="src/android/assets/iflytek/warning.png" target-dir="assets/iflytek/" />
+       
+
+ 
+    </platform>
+    
+</plugin>
