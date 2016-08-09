@@ -13,21 +13,43 @@
         "com.maxrocky.plugins.speaknative": {
             "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
         },
-        "com.synconset.imagepicker": {
-            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
-        },
         "cordova-plugin-actionsheet": {
             "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
         },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
         },
+        "maxrocky-plugins-alipay": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "maxrocky-plugins-base64Image": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "maxrocky-plugins-clipboard": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "maxrocky-plugins-intent2web": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "maxrocky-plugins-deviceId": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "maxrocky-plugins-updateversion": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        },
         "phonegap-plugin-barcodescanner": {
             "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
         },
-        "maxrocky-plugins-alipay": {
+        "cordova-plugin-image-picker": {
             "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.cordova.cordovaplugindemo"
+        }
+    }
 }

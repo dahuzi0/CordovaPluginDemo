@@ -1,0 +1,24 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	id="maxrocky-plugins-base64Image"
+	version="0.0.1">
+	<name>MRBase64Image</name>
+	<description>MRBase64Image</description>
+	<js-module src="www/MRBase64Image.js" name="MRBase64Image">
+		<clobbers target="MRBase64Image" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+            <feature name="MRBase64Image">
+                <param name="android-package" value="com.maxrocky.plugins.base64Image.MRBase64Image"/>
+            </feature>
+        </config-file>
+
+		<source-file
+			src="src/android/MRBase64Image.java"
+			target-dir="src/com/maxrocky/plugins/base64Image" />       
+	
+	</platform>
+</plugin>

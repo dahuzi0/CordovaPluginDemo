@@ -15,14 +15,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "com.synconset.imagepicker": {
-        "source": {
-            "type": "local",
-            "path": "/Users/earl/Desktop/CordovaDemo/my_plugins/cordova-imagePicker-master"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-actionsheet": {
         "source": {
             "type": "local",
@@ -47,18 +39,83 @@
         "is_top_level": true,
         "variables": {}
     },
-    "phonegap-plugin-barcodescanner": {
-        "source": {
-            "type": "local",
-            "path": "/Users/earl/Desktop/CordovaDemo/my_plugins/phonegap-plugin-barcodescanner-master"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "maxrocky-plugins-alipay": {
         "source": {
             "type": "local",
             "path": "/Users/earl/Desktop/CordovaDemo/plugins/maxrocky-plugins-alipay"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "maxrocky-plugins-base64Image": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/jingmaofu_vip_app/JinmaoMemberNative/plugins/maxrocky-plugins-base64Image"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "maxrocky-plugins-clipboard": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/jingmaofu_vip_app/JinmaoMemberNative/plugins/maxrocky-plugins-clipboard"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "maxrocky-plugins-intent2web": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/jingmaofu_vip_app/JinmaoMemberNative/plugins/maxrocky-plugins-intent2web"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "maxrocky-plugins-deviceId": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/jingmaofu_vip_app/JinmaoMemberNative/plugins/maxrocky-plugins-deviceId"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "maxrocky-plugins-updateversion": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/jingmaofu_vip_app/JinmaoMemberNative/plugins/maxrocky-plugins-updateversion"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-app-version": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/jingmaofu_vip_app/JinmaoMemberNative/plugins/cordova-plugin-app-version"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "phonegap-plugin-barcodescanner": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-image-picker": {
+        "source": {
+            "type": "local",
+            "path": "/Users/earl/jingmaofu_vip_app/JinmaoMemberNative/plugins/cordova-plugin-image-picker"
         },
         "is_top_level": true,
         "variables": {}
