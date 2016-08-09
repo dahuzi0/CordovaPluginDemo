@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	id="maxrocky-plugins-clipboard"
+	version="1.0.0">
+	<name>MRClipboard</name>
+	<description>MRClipboard</description>
+	<js-module src="www/MRClipboard.js" name="MRClipboard">
+		<clobbers target="MRClipboard" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+            <feature name="MRClipboard">
+                <param name="android-package" value="com.maxrocky.plugins.clipboard.MRClipboard"/>
+            </feature>
+        </config-file>
+
+		<source-file
+			src="src/android/MRClipboard.java"
+			target-dir="src/com/maxrocky/plugins/clipboard" />       
+	
+	</platform>
+</plugin>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	id="maxrocky-plugins-intent2web"
+	version="0.0.1">
+	<name>Intent2Web</name>
+	<description>Intent2Web</description>
+	<js-module src="www/intent2web.js" name="intent2web">
+		<clobbers target="Intent2Web" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+            <feature name="Intent2Web">
+                <param name="android-package" value="com.maxrocky.plugins.intent2Web.Intent2Web"/>
+            </feature>
+        </config-file>
+
+		<source-file
+			src="src/android/Intent2Web.java"
+			target-dir="src/com/maxrocky/plugins/intent2Web" />
+		<source-file
+			src="src/android/WebActivity.java"
+			target-dir="src/com/maxrocky/plugins/intent2Web" />
+		<source-file
+			src="src/android/res/drawable-hdpi/back.png"
+			target-dir="res/drawable-hdpi" />
+		<source-file
+			src="src/android/res/layout/activity_web.xml"
+			target-dir="res/layout" />
+            
+		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+			<activity android:name="com.maxrocky.plugins.intent2Web.WebActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+		</config-file>
+		
+		<config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+	</platform>
+</plugin>

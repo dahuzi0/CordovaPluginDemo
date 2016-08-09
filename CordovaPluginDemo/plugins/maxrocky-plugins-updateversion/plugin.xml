@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="maxrocky-plugins-updateversion" version="1.0.0">
+    <name>MRUpdateVersion</name>
+    <description>MRUpdateVersion</description>
+    <js-module src="www/MRUpdateVersion.js" name="MRUpdateVersion">
+        <clobbers target="MRUpdateVersion" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="MRUpdateVersion">
+                <param name="android-package" value="com.maxrocky.plugins.updateversion.MRUpdateVersion" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/MRUpdateVersion.java" target-dir="src/com/maxrocky/plugins/updateversion" />
+        <source-file src="src/android/MyWebViewClient.java" target-dir="src/com/maxrocky/plugins/updateversion" />
+    </platform>
+</plugin>

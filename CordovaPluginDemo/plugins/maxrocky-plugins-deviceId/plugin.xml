@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	id="maxrocky-plugins-deviceId"
+	version="0.0.1">
+	<name>MRDeviceId</name>
+	<description>MRDeviceId</description>
+	<js-module src="www/MRDeviceId.js" name="MRDeviceId">
+		<clobbers target="MRDeviceId" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+            <feature name="MRDeviceId">
+                <param name="android-package" value="com.maxrocky.plugins.deviceId.MRDeviceId"/>
+            </feature>
+        </config-file>
+
+		<source-file
+			src="src/android/MRDeviceId.java"
+			target-dir="src/com/maxrocky/plugins/deviceId" />       
+	
+	</platform>
+</plugin>
